@@ -1,0 +1,23 @@
+[hds_settings]
+version = 3
+default_library = TIMER_Vlog
+project_description = TIMER (VERILOG)\nThis is a Verilog design which implements a timer design\nusing block diagrams, a re-usable component defined by a HDL text\nview, a hierarchical state machine and truth table.\nThe example include a test bench controlled by a flow chart.
+
+[hds]
+TIMER_Vlog  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vlog/hds
+ 
+[hdl]
+TIMER_Vlog  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vlog/hdl
+ 
+[ModelSim]
+TIMER_Vlog  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vlog/modelsim
+
+[QuestaSim]
+TIMER_Vlog  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vlog/questasim
+
+[Leonardo]
+TIMER_Vlog  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vlog/ls_work
+
+[shared]
+others      = $HDS_TEAM_HOME/shared.hdp
+

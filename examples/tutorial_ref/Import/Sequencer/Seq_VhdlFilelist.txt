@@ -1,0 +1,6 @@
+# File list for importing the VHDL Fibonacci Sequencer design:
+#
+Seq_TestBench.vhd
+Seq_Tester.vhd
+seq_Generator.vhd
+

@@ -1,0 +1,25 @@
+[hds_settings]
+version = 3
+default_library = Ethernet
+project_description = ETHERNET (MIXED)\nThe Ethernet design is defined by a mixture of VHDL and Verilog views\nand includes a test bench which can be used to simulate the design.\nThis design contains a HDL text design example which is\npart of the Ethernet IP core project and is reproduced under the terms of the GNU\nlesser general public license as published by the Free Software Foundation.
+[hds]
+Ethernet = $HDS_PROJECT_DIR/ethernet/hds
+ 
+[hdl]
+Ethernet = $HDS_PROJECT_DIR/ethernet/hdl
+ 
+[ModelSim]
+Ethernet = $HDS_PROJECT_DIR/ethernet/modelsim
+
+[QuestaSim]
+Ethernet = $HDS_PROJECT_DIR/ethernet/questasim
+
+[Leonardo]
+Ethernet = $HDS_PROJECT_DIR/ethernet/ls_work
+
+[includes_search_path]
+Ethernet = $Ethernet/data/rtl/verilog
+ 
+[shared]
+others      = $HDS_TEAM_HOME/shared.hdp
+

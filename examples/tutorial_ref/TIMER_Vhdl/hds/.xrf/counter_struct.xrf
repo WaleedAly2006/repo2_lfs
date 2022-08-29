@@ -1,0 +1,161 @@
+DESIGN @counter
+VIEW interface
+NO_GRAPHIC 0
+DESIGN @counter
+VIEW interface
+GRAPHIC 50,0 8 0 
+DESIGN @counter
+VIEW interface
+GRAPHIC 258,0 14 0 
+DESIGN @counter
+VIEW interface
+GRAPHIC 293,0 15 0 
+DESIGN @counter
+VIEW interface
+GRAPHIC 263,0 16 0 
+DESIGN @counter
+VIEW interface
+GRAPHIC 273,0 17 0 
+DESIGN @counter
+VIEW interface
+GRAPHIC 278,0 18 0 
+DESIGN @counter
+VIEW interface
+GRAPHIC 268,0 19 0 
+DESIGN @counter
+VIEW interface
+GRAPHIC 283,0 20 0 
+DESIGN @counter
+VIEW interface
+GRAPHIC 288,0 21 0 
+DESIGN @counter
+VIEW interface
+GRAPHIC 1,0 24 0 
+DESIGN @counter
+VIEW interface
+GRAPHIC 1,0 25 0 
+DESIGN @counter
+VIEW struct.bd
+NO_GRAPHIC 28
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 155,0 37 0 
+DESIGN @counter
+VIEW struct.bd
+NO_GRAPHIC 40
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 0,0 45 2 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 444,0 50 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 264,0 51 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 276,0 52 0 
+DESIGN @counter
+VIEW struct.bd
+NO_GRAPHIC 53
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 270,0 55 0 
+DESIGN @counter
+VIEW struct.bd
+NO_GRAPHIC 57
+LIBRARY TIMER_Vhdl
+DESIGN @b@c@d@counter
+VIEW spec
+GRAPHIC 658,0 59 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 665,0 60 1 
+DESIGN @counter
+VIEW struct.bd
+NO_GRAPHIC 72
+LIBRARY TIMER_Vhdl
+DESIGN @counter
+VIEW struct.bd
+NO_GRAPHIC 74
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 658,0 77 0 
+DESIGN @counter
+VIEW struct.bd
+NO_GRAPHIC 80
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 467,0 82 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 578,0 85 0 
+DESIGN @counter
+VIEW struct.bd
+NO_GRAPHIC 88
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 658,0 90 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 665,0 91 1 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 15,0 95 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 396,0 96 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 402,0 97 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 408,0 98 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 414,0 99 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 270,0 100 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 85,0 101 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 266,0 102 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 700,0 104 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 707,0 105 1 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 266,0 109 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 29,0 110 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 426,0 111 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 43,0 112 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 99,0 113 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 446,0 114 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 71,0 115 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 278,0 116 0 
+DESIGN @counter
+VIEW struct.bd
+GRAPHIC 270,0 120 0 
+DESIGN @counter
+VIEW struct.bd
+NO_GRAPHIC 122

@@ -1,0 +1,23 @@
+[hds_settings]
+version = 3
+default_library = UART_V2K
+project_description = UART (VERILOG 2001)\nThis is a Verilog design which describes the UART\nuniversal asynchronous receiver transmitter design with a test bench controlled\nby a flow chart which can be used to verify the design.\nThe UART_V library contains a graphical version of the design described by\nVerilog views using block diagrams, IBD views, state machines, truth tables,\nflow charts and HDL text views.
+
+[hds]
+UART_V2K      = $HDS_PROJECT_DIR/uart_v2k/hds
+ 
+[hdl]
+UART_V2K      = $HDS_PROJECT_DIR/uart_v2k/hdl
+ 
+[ModelSim]
+UART_V2K      = $HDS_PROJECT_DIR/uart_v2k/modelsim
+
+[QuestaSim]
+UART_V2K      = $HDS_PROJECT_DIR/uart_v2k/questasim
+
+[Leonardo]
+UART_V2K      = $HDS_PROJECT_DIR/uart_v2k/ls_work
+
+[shared]
+others      = $HDS_TEAM_HOME/shared.hdp
+

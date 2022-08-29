@@ -1,0 +1,23 @@
+[hds_settings]
+version = 3
+default_library = UART
+project_description = UART (VHDL)\nThis is a VHDL design which describes the UART\nuniversal asynchronous receiver transmitter design with a test bench controlled\nby a flow chart which can be used to verify the design.\nThe UART library contains a graphical version of the design described by\nVHDL views using block diagrams, IBD views, state machines, truth tables,\nflow charts and HDL text views.
+
+[hds]
+UART        = $HDS_PROJECT_DIR/uart/hds
+ 
+[hdl]
+UART        = $HDS_PROJECT_DIR/uart/hdl
+ 
+[ModelSim]
+UART        = $HDS_PROJECT_DIR/uart/modelsim
+
+[QuestaSim]
+UART        = $HDS_PROJECT_DIR/uart/questasim
+
+[Leonardo]
+UART        = $HDS_PROJECT_DIR/uart/ls_work
+
+[shared]
+others      = $HDS_TEAM_HOME/shared.hdp
+

@@ -1,0 +1,54 @@
+
+VIEW control fsm
+   CSM current_state
+      PANEL Panel0 -6000 9800 75200 40500
+      STATE clr_regs -300 17400 5100
+      STATE inc_accb 12600 34000 5000
+      STATE load_acc_A_B 65500 33700 5200
+      STATE load_acc_sum 46300 17700 5200
+#
+VIEW fibgen struct
+   PANEL "Fibonacci Sequencer Design" 2000 3000 80000 44000
+   PORT clock 0 12000 32000
+   PORT fibout 2 75000 13000
+   PORT reset 0 12000 41000
+   INSTANCE FSM 28000 37000 58000 43000
+      CPT_PORT clock 2 2000
+      CPT_PORT clr 3 21000
+      CPT_PORT inc 3 8000
+      CPT_PORT ld_A_B 3 2000
+      CPT_PORT ld_sum 3 28000
+      CPT_PORT reset 2 4000
+   INSTANCE acc_A 11000 10000 23000 20000
+      CPT_PORT clock 1 10000
+      CPT_PORT clr 1 4000
+      CPT_PORT inc 1 7000
+      CPT_PORT ip 2 1000
+      CPT_PORT ld 1 1000
+      CPT_PORT op 0 1000
+   INSTANCE acc_B 29000 14000 41000 24000
+      CPT_PORT clock 1 10000
+      CPT_PORT clr 1 4000
+      CPT_PORT inc 1 7000
+      CPT_PORT ip 2 1000
+      CPT_PORT ld 1 1000
+      CPT_PORT op 0 1000
+   INSTANCE acc_sum 55000 12000 67000 22000
+      CPT_PORT clock 1 10000
+      CPT_PORT clr 1 4000
+      CPT_PORT inc 1 7000
+      CPT_PORT ip 2 1000
+      CPT_PORT ld 1 1000
+      CPT_PORT op 0 1000
+   EMBEDDED eb1 70000 30000 78000 40000
+#
+VIEW fibgen_tb struct
+   PANEL "Test Bench for Fibonacci Sequencer" 21000 22000 74000 39000
+   INSTANCE Checker 25000 25000 36000 35000
+      CPT_PORT clock 0 2000
+      CPT_PORT monitor 2 2000
+      CPT_PORT reset 0 8000
+   INSTANCE UUT 42000 25000 55000 35000
+      CPT_PORT clock 2 2000
+      CPT_PORT fibout 0 2000
+      CPT_PORT reset 2 8000

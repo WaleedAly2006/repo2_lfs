@@ -1,0 +1,3 @@
+DEFAULT_FILE atom lpm_add_sub_lpm_syn.vhd
+DEFAULT_ARCHITECTURE atom lpm_syn
+TOP_MARKER atom 1

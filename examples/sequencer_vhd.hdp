@@ -1,0 +1,23 @@
+[hds_settings]
+version = 3
+default_library = Sequencer_vhd
+project_description = SEQUENCER (VHDL)\nThis is a VHDL design containing a version ofthe Fibonacci sequencer\ndesign which is shown in many of illustrations used in this manual.
+
+[hds]
+Sequencer_vhd = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vhd/hds
+ 
+[hdl]
+Sequencer_vhd = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vhd/hdl
+ 
+[ModelSim]
+Sequencer_vhd = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vhd/modelsim
+
+[QuestaSim]
+Sequencer_vhd = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vhd/questasim
+
+[Leonardo]
+Sequencer_vhd = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vhd/ls_work
+ 
+[shared]
+others      = $HDS_TEAM_HOME/shared.hdp
+

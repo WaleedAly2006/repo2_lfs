@@ -1,0 +1,23 @@
+[hds_settings]
+version = 3
+default_library = TIMER_Vhdl
+project_description = TIMER (VHDL)\nThis is a VHDL design which implements a timer design\nusing block diagrams, a re-usable component defined by a HDL text\nview, a hierarchical state machine and truth table.\nThe examples include a test bench controlled by a flow chart.
+
+[hds]
+TIMER_Vhdl  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vhdl/hds
+ 
+[hdl]
+TIMER_Vhdl  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vhdl/hdl
+ 
+[ModelSim]
+TIMER_Vhdl  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vhdl/modelsim
+
+[QuestaSim]
+TIMER_Vhdl  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vhdl/questasim
+
+[Leonardo]
+TIMER_Vhdl  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vhdl/ls_work
+ 
+[shared]
+others      = $HDS_TEAM_HOME/shared.hdp
+

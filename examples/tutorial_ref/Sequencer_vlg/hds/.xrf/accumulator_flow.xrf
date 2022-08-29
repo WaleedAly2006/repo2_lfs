@@ -1,0 +1,108 @@
+DESIGN accumulator
+VIEW flow.fc
+NO_GRAPHIC 0
+DESIGN accumulator
+VIEW flow.fc
+NO_GRAPHIC 9
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 1,0 9 0 
+DESIGN accumulator
+VIEW flow.fc
+GRAPHIC 278,0 10 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 44,0 13 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 32,0 14 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 38,0 15 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 20,0 16 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 26,0 17 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 50,0 18 0 
+DESIGN accumulator
+VIEW flow.fc
+GRAPHIC 280,0 21 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 1,0 23 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 44,0 24 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 32,0 25 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 38,0 26 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 20,0 27 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 26,0 28 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 50,0 29 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 44,0 32 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 32,0 33 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 38,0 34 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 20,0 35 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 26,0 36 0 
+DESIGN accumulator
+VIEW symbol.sb
+GRAPHIC 50,0 37 0 
+DESIGN accumulator
+VIEW flow.fc
+GRAPHIC 19,0 39 0 
+DESIGN accumulator
+VIEW flow.fc
+GRAPHIC 19,0 39 0 
+DESIGN accumulator
+VIEW flow.fc
+GRAPHIC 18,0 41 0 
+DESIGN accumulator
+VIEW flow.fc
+GRAPHIC 15,0 41 0 
+DESIGN accumulator
+VIEW flow.fc
+GRAPHIC 36,0 43 0 
+DESIGN accumulator
+VIEW flow.fc
+GRAPHIC 52,0 44 0 
+DESIGN accumulator
+VIEW flow.fc
+GRAPHIC 76,0 47 0 
+DESIGN accumulator
+VIEW flow.fc
+GRAPHIC 92,0 48 0 
+DESIGN accumulator
+VIEW flow.fc
+GRAPHIC 104,0 50 0 
+DESIGN accumulator
+VIEW flow.fc
+GRAPHIC 120,0 51 0 
+DESIGN accumulator
+VIEW flow.fc
+GRAPHIC 132,0 55 0 
+DESIGN accumulator
+VIEW flow.fc
+GRAPHIC 282,0 60 0 

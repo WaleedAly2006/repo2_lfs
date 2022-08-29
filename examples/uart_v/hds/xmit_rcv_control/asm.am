@@ -1,0 +1,10158 @@
+DocumentHdrVersion "1.1"
+Header (DocumentHdr
+version 2
+language 1
+dialect 4
+dmPackageRefs [
+]
+machine (Machine
+name "rcv"
+children [
+(Machine
+name "rcv"
+children [
+(Machine
+name "rcv read_byte"
+children [
+]
+)
+]
+)
+(Machine
+name "xmit"
+children [
+(Machine
+name "xmit send_byte"
+children [
+]
+)
+]
+)
+]
+)
+)
+version "12.1"
+appVersion "2004.1"
+model (AsmChart
+VExpander (VariableExpander
+vvMap [
+(vvPair
+variable "HDLDir"
+value "<TBD>"
+)
+(vvPair
+variable "HDSDir"
+value "<TBD>"
+)
+(vvPair
+variable "SideDataDesignDir"
+value "<TBD>"
+)
+(vvPair
+variable "SideDataUserDir"
+value "<TBD>"
+)
+(vvPair
+variable "SourceDir"
+value "<TBD>"
+)
+(vvPair
+variable "appl"
+value "HDL Designer"
+)
+(vvPair
+variable "arch_name"
+value "asm"
+)
+(vvPair
+variable "config"
+value "%(unit)_%(view)_config"
+)
+(vvPair
+variable "d"
+value "<TBD>"
+)
+(vvPair
+variable "d_logical"
+value "<TBD>"
+)
+(vvPair
+variable "date"
+value "10/03/2019"
+)
+(vvPair
+variable "day"
+value "Sun"
+)
+(vvPair
+variable "day_long"
+value "Sunday"
+)
+(vvPair
+variable "dd"
+value "10"
+)
+(vvPair
+variable "entity_name"
+value "xmit_rcv_control"
+)
+(vvPair
+variable "ext"
+value "<TBD>"
+)
+(vvPair
+variable "f"
+value "asm.am"
+)
+(vvPair
+variable "f_logical"
+value "asm.am"
+)
+(vvPair
+variable "f_noext"
+value "asm"
+)
+(vvPair
+variable "graphical_source_author"
+value "JSmith"
+)
+(vvPair
+variable "graphical_source_date"
+value "10/03/2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_time"
+value "11:25:44"
+)
+(vvPair
+variable "group"
+value "UNKNOWN"
+)
+(vvPair
+variable "host"
+value "JSmith"
+)
+(vvPair
+variable "language"
+value "Verilog"
+)
+(vvPair
+variable "library"
+value "uart_v"
+)
+(vvPair
+variable "library_downstream_HdsLintPlugin"
+value "<TBD>"
+)
+(vvPair
+variable "library_downstream_ModelSimCompiler"
+value "<TBD>"
+)
+(vvPair
+variable "library_downstream_PrecisionSynthesisDataPrep"
+value "<TBD>"
+)
+(vvPair
+variable "library_downstream_QuestaSimCompiler"
+value "<TBD>"
+)
+(vvPair
+variable "library_downstream_SpectrumDataPrep"
+value "<TBD>"
+)
+(vvPair
+variable "mm"
+value "03"
+)
+(vvPair
+variable "module_name"
+value "xmit_rcv_control"
+)
+(vvPair
+variable "month"
+value "Mar"
+)
+(vvPair
+variable "month_long"
+value "March"
+)
+(vvPair
+variable "p"
+value "<TBD>"
+)
+(vvPair
+variable "p_logical"
+value "<TBD>"
+)
+(vvPair
+variable "package_name"
+value "<Undefined Variable>"
+)
+(vvPair
+variable "project_name"
+value "hds"
+)
+(vvPair
+variable "series"
+value "HDL Designer Series"
+)
+(vvPair
+variable "task_ADMS"
+value "<TBD>"
+)
+(vvPair
+variable "task_DesignCompilerPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_LeonardoPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_ModelSimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_NC"
+value "<TBD>"
+)
+(vvPair
+variable "task_NC-SimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_PrecisionRTLPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_QuestaSimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_VCSPath"
+value "<TBD>"
+)
+(vvPair
+variable "this_ext"
+value "am"
+)
+(vvPair
+variable "this_file"
+value "asm"
+)
+(vvPair
+variable "this_file_logical"
+value "asm"
+)
+(vvPair
+variable "time"
+value "11:25:44"
+)
+(vvPair
+variable "unit"
+value "xmit_rcv_control"
+)
+(vvPair
+variable "user"
+value "JSmith"
+)
+(vvPair
+variable "version"
+value "2004.1"
+)
+(vvPair
+variable "view"
+value "asm"
+)
+(vvPair
+variable "year"
+value "2019"
+)
+(vvPair
+variable "yy"
+value "19"
+)
+]
+)
+uid 1016,0
+optionalChildren [
+*1 (ConcurrentASM
+uid 1,0
+topDiagram (AsmDiagram
+LanguageMgr "None"
+uid 2,0
+optionalChildren [
+*2 (AsmClockPoint
+uid 39,0
+shape (CompositeShape
+uid 40,0
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+)
+optionalChildren [
+(Pentagon
+uid 41,0
+sl 0
+ro 270
+xt "2875,10500,5125,11500"
+)
+(OrthoPolyLine
+uid 42,0
+sl 0
+ro 270
+va (VaSet
+vasetType 3
+)
+xt "3775,10700,4382,11300"
+pts [
+"3775,11300"
+"4067,11300"
+"4067,10700"
+"4382,10700"
+]
+)
+(Arc2D
+pts [
+"3384,11153"
+"3129,10847"
+"3384,10847"
+]
+uid 43,0
+sl 0
+ro 270
+va (VaSet
+vasetType 1
+transparent 1
+)
+xt "3056,10800,3384,11199"
+)
+]
+)
+name (TextAssociate
+uid 44,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 45,0
+va (VaSet
+)
+xt "1075,10500,2375,11500"
+st "clk"
+ju 2
+blo "2375,11300"
+tm "AsmControlSignalNameMgr"
+)
+)
+cond (AsmControlCondition
+uid 46,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 47,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "0,32768,49152"
+)
+xt "5125,10400,10125,11600"
+)
+autoResize 1
+cond (MLText
+uid 48,0
+va (VaSet
+)
+xt "5225,10500,10025,11500"
+st "posedge clk"
+tm "AsmConditionMgr"
+)
+)
+)
+*3 (AsmResetPoint
+uid 49,0
+shape (CompositeShape
+uid 50,0
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+)
+optionalChildren [
+(Pentagon
+uid 51,0
+sl 0
+xt "24500,8250,25500,10500"
+)
+(OrthoPolyLine
+uid 52,0
+layer 10
+sl 0
+va (VaSet
+vasetType 3
+)
+xt "24700,9150,25300,9750"
+pts [
+"24700,9150"
+"25000,9150"
+"25000,9750"
+"25300,9750"
+]
+)
+(Line
+uid 53,0
+sl 0
+xt "25000,10500,25000,12000"
+pts [
+"25000,10500"
+"25000,12000"
+]
+)
+(Line
+uid 54,0
+sl 0
+xt "25000,8500,25100,8550"
+pts [
+"25100,8500"
+"25000,8550"
+]
+)
+(Line
+uid 55,0
+sl 0
+xt "25000,8500,25000,8850"
+pts [
+"25000,8500"
+"25000,8850"
+]
+)
+(Circle
+uid 56,0
+layer 10
+sl 0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,0"
+)
+xt "24850,9300,25150,9600"
+radius 150
+)
+]
+)
+cond (AsmControlCondition
+uid 62,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 63,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "0,32768,49152"
+)
+xt "24100,11400,25900,12600"
+)
+autoResize 1
+cond (MLText
+uid 64,0
+va (VaSet
+)
+xt "24200,11500,25800,12500"
+st "!rst"
+tm "AsmConditionMgr"
+)
+)
+prio (AsmPriority
+uid 59,0
+ps "CenterOffsetStrategy"
+shape (Circle
+uid 60,0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineWidth 1
+)
+xt "24219,12219,25781,13781"
+radius 781
+)
+pr (Text
+uid 61,0
+va (VaSet
+isHidden 1
+)
+xt "24600,12500,25400,13500"
+st "1"
+blo "24600,13300"
+tm "AsmPriority"
+)
+padding "100,100"
+)
+name (TextAssociate
+uid 57,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 58,0
+va (VaSet
+)
+xt "24350,6750,25650,7750"
+st "rst"
+blo "24350,7550"
+tm "AsmControlSignalNameMgr"
+)
+)
+actions (TextAssociate
+uid 65,0
+ps "CenterOffsetStrategy"
+text (MLText
+uid 66,0
+va (VaSet
+)
+xt "25500,8250,31000,9250"
+st "< Automatic >"
+tm "AsmActions"
+)
+)
+outConnect (AsmFlowConnect
+uid 67,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 68,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,11500,25500,12500"
+)
+direction 1
+position 1
+)
+)
+*4 (AsmRecoveryStatePoint
+uid 69,0
+shape (CompositeShape
+uid 70,0
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+)
+optionalChildren [
+(Circle
+uid 71,0
+sl 0
+xt "34100,9700,35900,11500"
+radius 900
+)
+(Line
+uid 72,0
+sl 0
+va (VaSet
+vasetType 3
+lineColor "65535,65535,0"
+lineWidth 1
+)
+xt "34574,10174,35426,11026"
+pts [
+"34574,11026"
+"35426,10174"
+]
+)
+(Line
+uid 73,0
+sl 0
+va (VaSet
+vasetType 3
+lineColor "65535,65535,0"
+lineWidth 1
+)
+xt "34574,10174,35426,11026"
+pts [
+"35426,11026"
+"34574,10174"
+]
+)
+(Line
+uid 74,0
+sl 0
+xt "35000,11500,35000,13000"
+pts [
+"35000,11500"
+"35000,13000"
+]
+)
+]
+)
+outConnect (AsmFlowConnect
+uid 75,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 76,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,12500,35500,13500"
+)
+direction 1
+position 1
+)
+)
+*5 (AsmStateBox
+uid 77,0
+shape (BarredRectangle
+uid 78,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "21000,16000,29000,18000"
+)
+autoResize 1
+name (Text
+uid 79,0
+va (VaSet
+font "Arial,10,1"
+)
+xt "22900,16400,27100,17600"
+st "waiting"
+blo "22900,17400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+uid 80,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 81,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "Arial,10,1"
+)
+xt "23900,17300,27500,18500"
+st "wait 2"
+blo "23900,18300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+uid 82,0
+va (VaSet
+isHidden 1
+font "Arial,10,1"
+)
+xt "25000,18000,25000,18000"
+blo "25000,18000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+uid 83,0
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+uid 84,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "30000,16400,38400,17600"
+)
+autoResize 1
+tline (Line
+uid 85,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "30100,16300,38300,16300"
+pts [
+"30100,16300"
+"38300,16300"
+]
+)
+bline (Line
+uid 86,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "30100,17250,38300,17250"
+pts [
+"30100,17250"
+"38300,17250"
+]
+)
+ttri (Triangle
+uid 87,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "29650,15925,30000,16275"
+)
+btri (Triangle
+uid 88,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "29650,16825,30000,17175"
+)
+entryActions (MLText
+uid 89,0
+va (VaSet
+)
+xt "30100,16100,30100,16100"
+tm "AsmActions"
+)
+inActions (MLText
+uid 90,0
+va (VaSet
+)
+xt "30100,16500,38300,17500"
+st "rcv_bit_cnt_cld <= 0;"
+tm "AsmActions"
+)
+exitActions (MLText
+uid 91,0
+va (VaSet
+)
+xt "34200,17000,34200,17000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+uid 92,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 93,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,15500,25500,16500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 94,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 95,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,17500,25500,18500"
+)
+direction 1
+position 1
+)
+)
+*6 (Grouping
+uid 102,0
+optionalChildren [
+*7 (CommentText
+uid 104,0
+shape (Rectangle
+uid 105,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "10000,71000,27000,72000"
+)
+oxt "18000,70000,35000,71000"
+text (MLText
+uid 106,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "10200,71000,19800,72000"
+st "
+by %user on %dd %month %year
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 17000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*8 (CommentText
+uid 107,0
+shape (Rectangle
+uid 108,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "27000,67000,31000,68000"
+)
+oxt "35000,66000,39000,67000"
+text (MLText
+uid 109,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "27200,67000,30200,68000"
+st "
+Project:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*9 (CommentText
+uid 110,0
+shape (Rectangle
+uid 111,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "10000,69000,27000,70000"
+)
+oxt "18000,68000,35000,69000"
+text (MLText
+uid 112,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "10200,69000,17800,70000"
+st "
+RCV receive control
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 17000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*10 (CommentText
+uid 113,0
+shape (Rectangle
+uid 114,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "6000,69000,10000,70000"
+)
+oxt "14000,68000,18000,69000"
+text (MLText
+uid 115,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "6200,69000,8300,70000"
+st "
+Title:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*11 (CommentText
+uid 116,0
+shape (Rectangle
+uid 117,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "27000,68000,47000,72000"
+)
+oxt "35000,67000,55000,71000"
+text (MLText
+uid 118,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "27200,68200,45800,69200"
+st "
+Control the receiving sequence of serial input data.
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 4000
+visibleWidth 20000
+)
+ignorePrefs 1
+titleBlock 1
+)
+*12 (CommentText
+uid 119,0
+shape (Rectangle
+uid 120,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "31000,67000,47000,68000"
+)
+oxt "39000,66000,55000,67000"
+text (MLText
+uid 121,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "31200,67000,35600,68000"
+st "
+%project_name
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 16000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*13 (CommentText
+uid 122,0
+shape (Rectangle
+uid 123,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "6000,67000,27000,69000"
+)
+oxt "14000,66000,35000,68000"
+text (MLText
+uid 124,0
+va (VaSet
+fg "32768,0,0"
+)
+xt "10950,67500,22050,68500"
+st "
+Mentor Graphics Corporation
+"
+ju 0
+tm "CommentText"
+wrapOption 3
+visibleHeight 2000
+visibleWidth 21000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*14 (CommentText
+uid 125,0
+shape (Rectangle
+uid 126,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "6000,70000,10000,71000"
+)
+oxt "14000,69000,18000,70000"
+text (MLText
+uid 127,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "6200,70000,8300,71000"
+st "
+Path:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*15 (CommentText
+uid 128,0
+shape (Rectangle
+uid 129,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "6000,71000,10000,72000"
+)
+oxt "14000,70000,18000,71000"
+text (MLText
+uid 130,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "6200,71000,8900,72000"
+st "
+Edited:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*16 (CommentText
+uid 131,0
+shape (Rectangle
+uid 132,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "10000,70000,27000,71000"
+)
+oxt "18000,69000,35000,70000"
+text (MLText
+uid 133,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "10200,70000,20600,71000"
+st "
+%library/%unit/%view
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 17000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+]
+shape (GroupingShape
+uid 103,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineStyle 2
+lineWidth 2
+)
+xt "6000,67000,47000,72000"
+)
+oxt "14000,66000,55000,71000"
+)
+*17 (AsmDecisionBox
+uid 175,0
+shape (Hexagon
+uid 176,0
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "21000,19000,29000,21000"
+)
+condition (MLText
+uid 177,0
+va (VaSet
+)
+xt "24050,19500,25950,20500"
+st "~sin"
+tm "AsmConditionMgr"
+)
+trueLabel (Text
+uid 178,0
+va (VaSet
+fg "32768,0,0"
+font "Arial,8,1"
+)
+xt "25593,21000,26493,22000"
+st "T"
+blo "25593,21800"
+)
+falseLabel (Text
+uid 179,0
+va (VaSet
+fg "32768,0,0"
+font "Arial,8,1"
+)
+xt "29000,18110,29900,19110"
+st "F"
+blo "29000,18910"
+)
+inConnect (AsmFlowConnect
+uid 180,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 181,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,18500,25500,19500"
+)
+direction 0
+)
+trueConnect (AsmFlowConnect
+uid 182,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 183,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,20500,25500,21500"
+)
+direction 1
+position 1
+)
+falseConnect (AsmFlowConnect
+uid 184,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 185,0
+ro 90
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "28500,19500,29500,20500"
+)
+direction 1
+position 3
+)
+cond "condition"
+elsif 1
+)
+*18 (AsmActionBox
+uid 188,0
+shape (Rectangle
+uid 189,0
+va (VaSet
+vasetType 1
+fg "49152,49152,49152"
+lineWidth 1
+)
+xt "20000,22000,30000,26000"
+)
+autoResize 1
+actions (MLText
+uid 190,0
+va (VaSet
+)
+xt "20900,23000,29100,25000"
+st "enable_rcv_clk <= 1;
+rcv_bit_cnt_cld <= 0;"
+tm "AsmActions"
+)
+inConnect (AsmFlowConnect
+uid 191,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 192,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,21500,25500,22500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 193,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 194,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,25500,25500,26500"
+)
+direction 1
+position 1
+)
+)
+*19 (AsmStateBox
+uid 197,0
+shape (BarredRectangle
+uid 198,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "20000,27000,30000,29000"
+)
+autoResize 1
+name (Text
+uid 199,0
+va (VaSet
+font "Arial,10,1"
+)
+xt "21550,27400,28450,28600"
+st "check_lock"
+blo "21550,28400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+uid 200,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 201,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "Arial,10,1"
+)
+xt "22550,28300,26150,29500"
+st "wait 2"
+blo "22550,29300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+uid 202,0
+va (VaSet
+isHidden 1
+font "Arial,10,1"
+)
+xt "25000,29000,25000,29000"
+blo "25000,29000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+uid 203,0
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+uid 204,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "31000,27400,39300,28600"
+)
+autoResize 1
+tline (Line
+uid 205,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "31100,27300,39200,27300"
+pts [
+"31100,27300"
+"39200,27300"
+]
+)
+bline (Line
+uid 206,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "31100,28250,39200,28250"
+pts [
+"31100,28250"
+"39200,28250"
+]
+)
+ttri (Triangle
+uid 207,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "30650,26925,31000,27275"
+)
+btri (Triangle
+uid 208,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "30650,27825,31000,28175"
+)
+entryActions (MLText
+uid 209,0
+va (VaSet
+)
+xt "31100,27100,31100,27100"
+tm "AsmActions"
+)
+inActions (MLText
+uid 210,0
+va (VaSet
+)
+xt "31100,27500,39200,28500"
+st "enable_rcv_clk <= 1;"
+tm "AsmActions"
+)
+exitActions (MLText
+uid 211,0
+va (VaSet
+)
+xt "35150,28000,35150,28000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+uid 212,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 213,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,26500,25500,27500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 214,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 215,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,28500,25500,29500"
+)
+direction 1
+position 1
+)
+)
+*20 (AsmIfDecodeBox
+uid 218,0
+optionalChildren [
+*21 (AsmBranchPort
+uid 230,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 231,0
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "20500,35000,21500,36000"
+)
+name (TextAssociate
+uid 232,0
+ps "CenterOffsetStrategy"
+text (MLText
+uid 233,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "21500,35500,23000,36500"
+st "sin"
+tm "AsmBranchPortNameMgr"
+)
+)
+)
+*22 (AsmBranchPort
+uid 234,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 235,0
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,35000,25500,36000"
+)
+name (TextAssociate
+uid 236,0
+ps "CenterOffsetStrategy"
+text (MLText
+uid 237,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "25500,35500,27500,36500"
+st "~sin"
+tm "AsmBranchPortNameMgr"
+)
+)
+)
+*23 (AsmBranchPort
+uid 238,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 239,0
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "28500,35000,29500,36000"
+)
+name (TextAssociate
+uid 240,0
+ps "CenterOffsetStrategy"
+text (MLText
+uid 241,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "29500,35500,31300,36500"
+st "else"
+tm "AsmBranchPortNameMgr"
+)
+)
+)
+]
+shape (Pentagon
+uid 219,0
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "18000,31000,32000,35000"
+)
+label (Text
+uid 220,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "24550,32500,25450,33500"
+st "If"
+blo "24550,33300"
+)
+inConnect (AsmFlowConnect
+uid 221,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 222,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,30500,25500,31500"
+)
+direction 0
+)
+endIf *24 (AsmEndIfDecodeBox
+uid 223,0
+ps "CenterOffsetStrategy"
+shape (Pentagon
+uid 224,0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "21000,55000,29000,59000"
+)
+label (Text
+uid 225,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "23700,56500,26300,57500"
+st "End If"
+blo "23700,57300"
+)
+inConnect (AsmFlowConnect
+uid 226,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 227,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,54500,25500,55500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 228,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 229,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,58500,25500,59500"
+)
+direction 1
+position 1
+)
+)
+)
+*25 (AsmActionBox
+uid 244,0
+shape (Rectangle
+uid 245,0
+va (VaSet
+vasetType 1
+fg "49152,49152,49152"
+lineWidth 1
+)
+xt "9000,38000,19000,40000"
+)
+autoResize 1
+actions (MLText
+uid 246,0
+va (VaSet
+)
+xt "9950,38500,18050,39500"
+st "enable_rcv_clk <= 0;"
+tm "AsmActions"
+)
+inConnect (AsmFlowConnect
+uid 247,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 248,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "13500,37500,14500,38500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 249,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 250,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "13500,39500,14500,40500"
+)
+direction 1
+position 1
+)
+)
+*26 (AsmCompositeStateBox
+uid 283,0
+shape (DoubleBarredRectangle
+uid 284,0
+va (VaSet
+vasetType 1
+fg "29952,39936,65280"
+lineWidth 1
+)
+xt "21000,38000,29000,40000"
+)
+autoResize 1
+name (Text
+uid 285,0
+va (VaSet
+font "Arial,10,1"
+)
+xt "22300,38400,27700,39600"
+st "read_byte"
+blo "22300,39400"
+tm "AsmCompositeActionNameMgr"
+)
+inConnect (AsmFlowConnect
+uid 286,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 287,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,37500,25500,38500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 288,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 289,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,39500,25500,40500"
+)
+direction 1
+position 1
+)
+childDiagram *27 (AsmDiagram
+LanguageMgr "None"
+uid 509,0
+optionalChildren [
+*28 (AsmStartPoint
+uid 510,0
+shape (RoundedRectangle
+uid 511,0
+va (VaSet
+vasetType 1
+fg "49152,0,49152"
+lineWidth 1
+)
+xt "32000,4000,38000,6000"
+radius 400
+)
+label (Text
+uid 512,0
+va (VaSet
+fg "65535,65535,65535"
+font "arial,10,1"
+)
+xt "33550,4400,36450,5600"
+st "Start"
+blo "33550,5400"
+)
+outConnect (AsmFlowConnect
+uid 513,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 514,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,5500,35500,6500"
+)
+direction 1
+position 1
+)
+)
+*29 (AsmStateBox
+uid 515,0
+shape (BarredRectangle
+uid 516,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "30000,9000,40000,11000"
+)
+autoResize 1
+name (Text
+uid 517,0
+va (VaSet
+font "arial,10,1"
+)
+xt "31600,9400,38400,10600"
+st "rcv_locked"
+blo "31600,10400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+uid 518,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 519,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "32600,10300,36200,11500"
+st "wait 2"
+blo "32600,11300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+uid 520,0
+va (VaSet
+isHidden 1
+font "arial,10,1"
+)
+xt "35000,11000,35000,11000"
+blo "35000,11000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+uid 521,0
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+uid 522,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "40850,8900,49150,11100"
+)
+autoResize 1
+tline (Line
+uid 523,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "40950,8800,49050,8800"
+pts [
+"40950,8800"
+"49050,8800"
+]
+)
+bline (Line
+uid 524,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "40950,10500,49050,10500"
+pts [
+"40950,10500"
+"49050,10500"
+]
+)
+ttri (Triangle
+uid 525,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "40500,8425,40850,8775"
+)
+btri (Triangle
+uid 526,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "40500,9825,40850,10175"
+)
+entryActions (MLText
+uid 527,0
+va (VaSet
+font "arial,8,0"
+)
+xt "40950,8600,40950,8600"
+tm "AsmActions"
+)
+inActions (MLText
+uid 528,0
+va (VaSet
+font "arial,8,0"
+)
+xt "40950,9000,49050,11000"
+st "rcving <= 1;
+enable_rcv_clk <= 1;"
+tm "AsmActions"
+)
+exitActions (MLText
+uid 529,0
+va (VaSet
+font "arial,8,0"
+)
+xt "45000,10000,45000,10000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+uid 530,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 531,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,8500,35500,9500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 532,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 533,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,10500,35500,11500"
+)
+direction 1
+position 1
+)
+)
+*30 (AsmDecisionBox
+uid 534,0
+shape (Hexagon
+uid 535,0
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "31000,12000,39000,14000"
+)
+condition (MLText
+uid 536,0
+va (VaSet
+font "arial,8,0"
+)
+xt "33600,12500,36400,13500"
+st "sample"
+tm "AsmConditionMgr"
+)
+trueLabel (Text
+uid 537,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "35593,14000,36493,15000"
+st "T"
+blo "35593,14800"
+)
+falseLabel (Text
+uid 538,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "39000,11110,39900,12110"
+st "F"
+blo "39000,11910"
+)
+inConnect (AsmFlowConnect
+uid 539,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 540,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,11500,35500,12500"
+)
+direction 0
+)
+trueConnect (AsmFlowConnect
+uid 541,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 542,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,13500,35500,14500"
+)
+direction 1
+position 1
+)
+falseConnect (AsmFlowConnect
+uid 543,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 544,0
+ro 90
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "38500,12500,39500,13500"
+)
+direction 1
+position 3
+)
+cond "condition"
+elsif 1
+)
+*31 (AsmStateBox
+uid 545,0
+shape (BarredRectangle
+uid 546,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "31000,16000,39000,18000"
+)
+autoResize 1
+name (Text
+uid 547,0
+va (VaSet
+font "arial,10,1"
+)
+xt "32250,16400,37750,17600"
+st "read_data"
+blo "32250,17400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+uid 548,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 549,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "33250,17300,36850,18500"
+st "wait 2"
+blo "33250,18300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+uid 550,0
+va (VaSet
+isHidden 1
+font "arial,10,1"
+)
+xt "35000,18000,35000,18000"
+blo "35000,18000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+uid 551,0
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+uid 552,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "40850,15900,49150,18100"
+)
+autoResize 1
+tline (Line
+uid 553,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "40950,15800,49050,15800"
+pts [
+"40950,15800"
+"49050,15800"
+]
+)
+bline (Line
+uid 554,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "40950,17500,49050,17500"
+pts [
+"40950,17500"
+"49050,17500"
+]
+)
+ttri (Triangle
+uid 555,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "40500,15425,40850,15775"
+)
+btri (Triangle
+uid 556,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "40500,16825,40850,17175"
+)
+entryActions (MLText
+uid 557,0
+va (VaSet
+font "arial,8,0"
+)
+xt "40950,15600,40950,15600"
+tm "AsmActions"
+)
+inActions (MLText
+uid 558,0
+va (VaSet
+font "arial,8,0"
+)
+xt "40950,16000,49050,18000"
+st "rcving <= 1;
+enable_rcv_clk <= 1;"
+tm "AsmActions"
+)
+exitActions (MLText
+uid 559,0
+va (VaSet
+font "arial,8,0"
+)
+xt "45000,17000,45000,17000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+uid 560,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 561,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,15500,35500,16500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 562,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 563,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,17500,35500,18500"
+)
+direction 1
+position 1
+)
+)
+*32 (AsmDecisionBox
+uid 564,0
+shape (Hexagon
+uid 565,0
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "31000,19000,39000,21000"
+)
+condition (MLText
+uid 566,0
+va (VaSet
+font "arial,8,0"
+)
+xt "33350,19500,36650,20500"
+st "~sample"
+tm "AsmConditionMgr"
+)
+trueLabel (Text
+uid 567,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "35593,21000,36493,22000"
+st "T"
+blo "35593,21800"
+)
+falseLabel (Text
+uid 568,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "39000,18110,39900,19110"
+st "F"
+blo "39000,18910"
+)
+inConnect (AsmFlowConnect
+uid 569,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 570,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,18500,35500,19500"
+)
+direction 0
+)
+trueConnect (AsmFlowConnect
+uid 571,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 572,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,20500,35500,21500"
+)
+direction 1
+position 1
+)
+falseConnect (AsmFlowConnect
+uid 573,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 574,0
+ro 90
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "38500,19500,39500,20500"
+)
+direction 1
+position 3
+)
+cond "condition"
+elsif 1
+)
+*33 (AsmStateBox
+uid 575,0
+shape (BarredRectangle
+uid 576,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "30000,22000,40000,24000"
+)
+autoResize 1
+name (Text
+uid 577,0
+va (VaSet
+font "arial,10,1"
+)
+xt "31500,22400,38500,23600"
+st "incr_count2"
+blo "31500,23400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+uid 578,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 579,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "32500,23300,36100,24500"
+st "wait 2"
+blo "32500,24300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+uid 580,0
+va (VaSet
+isHidden 1
+font "arial,10,1"
+)
+xt "35000,24000,35000,24000"
+blo "35000,24000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+uid 581,0
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+uid 582,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "40850,21900,49150,24100"
+)
+autoResize 1
+tline (Line
+uid 583,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "40950,21800,49050,21800"
+pts [
+"40950,21800"
+"49050,21800"
+]
+)
+bline (Line
+uid 584,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "40950,23500,49050,23500"
+pts [
+"40950,23500"
+"49050,23500"
+]
+)
+ttri (Triangle
+uid 585,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "40500,21425,40850,21775"
+)
+btri (Triangle
+uid 586,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "40500,22825,40850,23175"
+)
+entryActions (MLText
+uid 587,0
+va (VaSet
+font "arial,8,0"
+)
+xt "40950,21600,40950,21600"
+tm "AsmActions"
+)
+inActions (MLText
+uid 588,0
+va (VaSet
+font "arial,8,0"
+)
+xt "40950,22000,49050,24000"
+st "rcving <= 1;
+enable_rcv_clk <= 1;"
+tm "AsmActions"
+)
+exitActions (MLText
+uid 589,0
+va (VaSet
+font "arial,8,0"
+)
+xt "45000,23000,45000,23000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+uid 590,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 591,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,21500,35500,22500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 592,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 593,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,23500,35500,24500"
+)
+direction 1
+position 1
+)
+)
+*34 (AsmDecisionBox
+uid 594,0
+shape (Hexagon
+uid 595,0
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "31000,25000,39000,27000"
+)
+condition (MLText
+uid 596,0
+va (VaSet
+font "arial,8,0"
+)
+xt "33600,25500,36400,26500"
+st "sample"
+tm "AsmConditionMgr"
+)
+trueLabel (Text
+uid 597,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "35593,27000,36493,28000"
+st "T"
+blo "35593,27800"
+)
+falseLabel (Text
+uid 598,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "39000,24110,39900,25110"
+st "F"
+blo "39000,24910"
+)
+inConnect (AsmFlowConnect
+uid 599,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 600,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,24500,35500,25500"
+)
+direction 0
+)
+trueConnect (AsmFlowConnect
+uid 601,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 602,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,26500,35500,27500"
+)
+direction 1
+position 1
+)
+falseConnect (AsmFlowConnect
+uid 603,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 604,0
+ro 90
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "38500,25500,39500,26500"
+)
+direction 1
+position 3
+)
+cond "condition"
+elsif 1
+)
+*35 (AsmActionBox
+uid 605,0
+shape (Rectangle
+uid 606,0
+va (VaSet
+vasetType 1
+fg "49152,49152,49152"
+lineWidth 1
+)
+xt "31000,28000,39000,30000"
+)
+autoResize 1
+actions (MLText
+uid 607,0
+va (VaSet
+font "arial,8,0"
+)
+xt "32250,28500,37750,29500"
+st "read_bit <= 1;"
+tm "AsmActions"
+)
+inConnect (AsmFlowConnect
+uid 608,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 609,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,27500,35500,28500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 610,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 611,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,29500,35500,30500"
+)
+direction 1
+position 1
+)
+)
+*36 (AsmDecisionBox
+uid 612,0
+shape (Hexagon
+uid 613,0
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "28000,31000,42000,33000"
+)
+condition (MLText
+uid 614,0
+va (VaSet
+font "arial,8,0"
+)
+xt "31000,31500,39000,32500"
+st "rcv_bit_cnt_cld == 7"
+tm "AsmConditionMgr"
+)
+trueLabel (Text
+uid 615,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "35593,33000,36493,34000"
+st "T"
+blo "35593,33800"
+)
+falseLabel (Text
+uid 616,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "27100,30110,28000,31110"
+st "F"
+blo "27100,30910"
+)
+inConnect (AsmFlowConnect
+uid 617,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 618,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,30500,35500,31500"
+)
+direction 0
+)
+trueConnect (AsmFlowConnect
+uid 619,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 620,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,32500,35500,33500"
+)
+direction 1
+position 1
+)
+falseConnect (AsmFlowConnect
+uid 621,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 622,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "27500,31500,28500,32500"
+)
+direction 1
+position 2
+)
+cond "condition"
+elsif 1
+)
+*37 (AsmStateBox
+uid 623,0
+shape (BarredRectangle
+uid 624,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "30000,35000,40000,37000"
+)
+autoResize 1
+name (Text
+uid 625,0
+va (VaSet
+font "arial,10,1"
+)
+xt "32100,35400,37900,36600"
+st "done_read"
+blo "32100,36400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+uid 626,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 627,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "33100,36300,36700,37500"
+st "wait 2"
+blo "33100,37300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+uid 628,0
+va (VaSet
+isHidden 1
+font "arial,10,1"
+)
+xt "35000,37000,35000,37000"
+blo "35000,37000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+uid 629,0
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+uid 630,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "40850,34900,49150,37100"
+)
+autoResize 1
+tline (Line
+uid 631,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "40950,34800,49050,34800"
+pts [
+"40950,34800"
+"49050,34800"
+]
+)
+bline (Line
+uid 632,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "40950,36500,49050,36500"
+pts [
+"40950,36500"
+"49050,36500"
+]
+)
+ttri (Triangle
+uid 633,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "40500,34425,40850,34775"
+)
+btri (Triangle
+uid 634,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "40500,35825,40850,36175"
+)
+entryActions (MLText
+uid 635,0
+va (VaSet
+font "arial,8,0"
+)
+xt "40950,34600,40950,34600"
+tm "AsmActions"
+)
+inActions (MLText
+uid 636,0
+va (VaSet
+font "arial,8,0"
+)
+xt "40950,35000,49050,37000"
+st "rcving <= 1;
+enable_rcv_clk <= 1;"
+tm "AsmActions"
+)
+exitActions (MLText
+uid 637,0
+va (VaSet
+font "arial,8,0"
+)
+xt "45000,36000,45000,36000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+uid 638,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 639,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,34500,35500,35500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 640,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 641,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,36500,35500,37500"
+)
+direction 1
+position 1
+)
+)
+*38 (AsmActionBox
+uid 642,0
+shape (Rectangle
+uid 643,0
+va (VaSet
+vasetType 1
+fg "49152,49152,49152"
+lineWidth 1
+)
+xt "13000,35000,29000,37000"
+)
+autoResize 1
+actions (MLText
+uid 644,0
+va (VaSet
+font "arial,8,0"
+)
+xt "13950,35500,28050,36500"
+st "rcv_bit_cnt_cld <= rcv_bit_cnt_cld + 1;"
+tm "AsmActions"
+)
+inConnect (AsmFlowConnect
+uid 645,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 646,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "20500,34500,21500,35500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 647,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 648,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "20500,36500,21500,37500"
+)
+direction 1
+position 1
+)
+)
+*39 (AsmDecisionBox
+uid 649,0
+shape (Hexagon
+uid 650,0
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "31000,39000,39000,41000"
+)
+condition (MLText
+uid 651,0
+va (VaSet
+font "arial,8,0"
+)
+xt "33350,39500,36650,40500"
+st "~sample"
+tm "AsmConditionMgr"
+)
+trueLabel (Text
+uid 652,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "35593,41000,36493,42000"
+st "T"
+blo "35593,41800"
+)
+falseLabel (Text
+uid 653,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "39000,38110,39900,39110"
+st "F"
+blo "39000,38910"
+)
+inConnect (AsmFlowConnect
+uid 654,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 655,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,38500,35500,39500"
+)
+direction 0
+)
+trueConnect (AsmFlowConnect
+uid 656,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 657,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,40500,35500,41500"
+)
+direction 1
+position 1
+)
+falseConnect (AsmFlowConnect
+uid 658,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 659,0
+ro 90
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "38500,39500,39500,40500"
+)
+direction 1
+position 3
+)
+cond "condition"
+elsif 1
+)
+*40 (AsmStateBox
+uid 660,0
+shape (BarredRectangle
+uid 661,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "29000,43000,41000,45000"
+)
+autoResize 1
+name (Text
+uid 662,0
+va (VaSet
+font "arial,10,1"
+)
+xt "31050,43400,38950,44600"
+st "read_stop_bit"
+blo "31050,44400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+uid 663,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 664,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "32050,44300,35650,45500"
+st "wait 2"
+blo "32050,45300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+uid 665,0
+va (VaSet
+isHidden 1
+font "arial,10,1"
+)
+xt "35000,45000,35000,45000"
+blo "35000,45000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+uid 666,0
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+uid 667,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "41850,42900,50150,45100"
+)
+autoResize 1
+tline (Line
+uid 668,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "41950,42800,50050,42800"
+pts [
+"41950,42800"
+"50050,42800"
+]
+)
+bline (Line
+uid 669,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "41950,44500,50050,44500"
+pts [
+"41950,44500"
+"50050,44500"
+]
+)
+ttri (Triangle
+uid 670,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "41500,42425,41850,42775"
+)
+btri (Triangle
+uid 671,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "41500,43825,41850,44175"
+)
+entryActions (MLText
+uid 672,0
+va (VaSet
+font "arial,8,0"
+)
+xt "41950,42600,41950,42600"
+tm "AsmActions"
+)
+inActions (MLText
+uid 673,0
+va (VaSet
+font "arial,8,0"
+)
+xt "41950,43000,50050,45000"
+st "rcving <= 1;
+enable_rcv_clk <= 1;"
+tm "AsmActions"
+)
+exitActions (MLText
+uid 674,0
+va (VaSet
+font "arial,8,0"
+)
+xt "46000,44000,46000,44000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+uid 675,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 676,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,42500,35500,43500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 677,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 678,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,44500,35500,45500"
+)
+direction 1
+position 1
+)
+)
+*41 (AsmDecisionBox
+uid 679,0
+shape (Hexagon
+uid 680,0
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "31000,47000,39000,49000"
+)
+condition (MLText
+uid 681,0
+va (VaSet
+font "arial,8,0"
+)
+xt "33600,47500,36400,48500"
+st "sample"
+tm "AsmConditionMgr"
+)
+trueLabel (Text
+uid 682,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "35593,49000,36493,50000"
+st "T"
+blo "35593,49800"
+)
+falseLabel (Text
+uid 683,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "39000,46110,39900,47110"
+st "F"
+blo "39000,46910"
+)
+inConnect (AsmFlowConnect
+uid 684,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 685,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,46500,35500,47500"
+)
+direction 0
+)
+trueConnect (AsmFlowConnect
+uid 686,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 687,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,48500,35500,49500"
+)
+direction 1
+position 1
+)
+falseConnect (AsmFlowConnect
+uid 688,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 689,0
+ro 90
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "38500,47500,39500,48500"
+)
+direction 1
+position 3
+)
+cond "condition"
+elsif 1
+)
+*42 (AsmStateBox
+uid 690,0
+shape (BarredRectangle
+uid 691,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "30000,51000,40000,53000"
+)
+autoResize 1
+name (Text
+uid 692,0
+va (VaSet
+font "arial,10,1"
+)
+xt "31900,51400,38100,52600"
+st "finish_rcv"
+blo "31900,52400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+uid 693,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 694,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "32900,52300,36500,53500"
+st "wait 2"
+blo "32900,53300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+uid 695,0
+va (VaSet
+isHidden 1
+font "arial,10,1"
+)
+xt "35000,53000,35000,53000"
+blo "35000,53000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+uid 696,0
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+uid 697,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "40850,50400,49150,53600"
+)
+autoResize 1
+tline (Line
+uid 698,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "40950,50300,49050,50300"
+pts [
+"40950,50300"
+"49050,50300"
+]
+)
+bline (Line
+uid 699,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "40950,52750,49050,52750"
+pts [
+"40950,52750"
+"49050,52750"
+]
+)
+ttri (Triangle
+uid 700,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "40500,49925,40850,50275"
+)
+btri (Triangle
+uid 701,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "40500,51825,40850,52175"
+)
+entryActions (MLText
+uid 702,0
+va (VaSet
+font "arial,8,0"
+)
+xt "40950,50100,40950,50100"
+tm "AsmActions"
+)
+inActions (MLText
+uid 703,0
+va (VaSet
+font "arial,8,0"
+)
+xt "40950,50500,49050,53500"
+st "enable_rcv_clk <= 0;
+rcving <= 0;
+done_rcving <= 1;"
+tm "AsmActions"
+)
+exitActions (MLText
+uid 704,0
+va (VaSet
+font "arial,8,0"
+)
+xt "45000,52000,45000,52000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+uid 705,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 706,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,50500,35500,51500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 707,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 708,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,52500,35500,53500"
+)
+direction 1
+position 1
+)
+)
+*43 (AsmEndPoint
+uid 709,0
+shape (RoundedRectangle
+uid 710,0
+va (VaSet
+vasetType 1
+fg "49152,0,49152"
+lineWidth 1
+)
+xt "32000,56000,38000,58000"
+radius 400
+)
+label (Text
+uid 711,0
+va (VaSet
+fg "65535,65535,65535"
+font "arial,10,1"
+)
+xt "33750,56400,36250,57600"
+st "End"
+blo "33750,57400"
+)
+inConnect (AsmFlowConnect
+uid 712,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 713,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "34500,55500,35500,56500"
+)
+direction 0
+)
+)
+*44 (AsmFlow
+uid 714,0
+optionalChildren [
+*45 (AsmFlowJoin
+uid 716,0
+ps "OnConnectorStrategy"
+shape (Circle
+uid 717,0
+va (VaSet
+vasetType 1
+)
+xt "34850,14850,35150,15150"
+radius 150
+)
+)
+]
+shape (OrthoPolyLine
+uid 715,0
+va (VaSet
+vasetType 3
+)
+xt "35000,14000,35000,16000"
+pts [
+"35000,14000"
+"35000,16000"
+]
+arrow 1
+)
+start &30
+end &31
+)
+*46 (AsmFlow
+uid 718,0
+shape (OrthoPolyLine
+uid 719,0
+va (VaSet
+vasetType 3
+)
+xt "12000,15000,35000,39000"
+pts [
+"21000,37000"
+"21000,39000"
+"12000,39000"
+"12000,15000"
+"35000,15000"
+]
+arrow 1
+)
+start &38
+end &45
+es 0
+)
+*47 (AsmFlow
+uid 720,0
+shape (OrthoPolyLine
+uid 721,0
+va (VaSet
+vasetType 3
+)
+xt "35000,24000,35000,25000"
+pts [
+"35000,24000"
+"35000,25000"
+]
+arrow 1
+)
+start &33
+end &34
+)
+*48 (AsmFlow
+uid 722,0
+shape (OrthoPolyLine
+uid 723,0
+va (VaSet
+vasetType 3
+)
+xt "35000,11000,35000,12000"
+pts [
+"35000,11000"
+"35000,12000"
+]
+arrow 1
+)
+start &29
+end &30
+)
+*49 (AsmFlow
+uid 724,0
+shape (OrthoPolyLine
+uid 725,0
+va (VaSet
+vasetType 3
+)
+xt "35000,30000,35000,31000"
+pts [
+"35000,30000"
+"35000,31000"
+]
+arrow 1
+)
+start &35
+end &36
+)
+*50 (AsmFlow
+uid 726,0
+shape (OrthoPolyLine
+uid 727,0
+va (VaSet
+vasetType 3
+)
+xt "35000,27000,35000,28000"
+pts [
+"35000,27000"
+"35000,28000"
+]
+arrow 1
+)
+start &34
+end &35
+)
+*51 (AsmFlow
+uid 728,0
+shape (OrthoPolyLine
+uid 729,0
+va (VaSet
+vasetType 3
+)
+xt "35000,21000,35000,22000"
+pts [
+"35000,21000"
+"35000,22000"
+]
+arrow 1
+)
+start &32
+end &33
+)
+*52 (AsmFlow
+uid 730,0
+shape (OrthoPolyLine
+uid 731,0
+va (VaSet
+vasetType 3
+)
+xt "35000,37000,35000,39000"
+pts [
+"35000,37000"
+"35000,39000"
+]
+arrow 1
+)
+start &37
+end &39
+)
+*53 (AsmFlow
+uid 732,0
+shape (OrthoPolyLine
+uid 733,0
+va (VaSet
+vasetType 3
+)
+xt "35000,41000,35000,43000"
+pts [
+"35000,41000"
+"35000,43000"
+]
+arrow 1
+)
+start &39
+end &40
+)
+*54 (AsmFlow
+uid 734,0
+shape (OrthoPolyLine
+uid 735,0
+va (VaSet
+vasetType 3
+)
+xt "35000,18000,35000,19000"
+pts [
+"35000,18000"
+"35000,19000"
+]
+arrow 1
+)
+start &31
+end &32
+)
+*55 (AsmFlow
+uid 736,0
+shape (OrthoPolyLine
+uid 737,0
+va (VaSet
+vasetType 3
+)
+xt "21000,32000,28000,35000"
+pts [
+"28000,32000"
+"21000,32000"
+"21000,35000"
+]
+arrow 1
+)
+start &36
+end &38
+)
+*56 (AsmFlow
+uid 738,0
+shape (OrthoPolyLine
+uid 739,0
+va (VaSet
+vasetType 3
+)
+xt "35000,53000,35000,56000"
+pts [
+"35000,53000"
+"35000,56000"
+]
+arrow 1
+)
+start &42
+end &43
+)
+*57 (AsmFlow
+uid 740,0
+shape (OrthoPolyLine
+uid 741,0
+va (VaSet
+vasetType 3
+)
+xt "35000,6000,35000,9000"
+pts [
+"35000,6000"
+"35000,9000"
+]
+arrow 1
+)
+start &28
+end &29
+)
+*58 (AsmFlow
+uid 742,0
+shape (OrthoPolyLine
+uid 743,0
+va (VaSet
+vasetType 3
+)
+xt "35000,33000,35000,35000"
+pts [
+"35000,33000"
+"35000,35000"
+]
+arrow 1
+)
+start &36
+end &37
+)
+*59 (AsmFlow
+uid 744,0
+shape (OrthoPolyLine
+uid 745,0
+va (VaSet
+vasetType 3
+)
+xt "35000,45000,35000,47000"
+pts [
+"35000,45000"
+"35000,47000"
+]
+arrow 1
+)
+start &40
+end &41
+)
+*60 (AsmFlow
+uid 746,0
+shape (OrthoPolyLine
+uid 747,0
+va (VaSet
+vasetType 3
+)
+xt "35000,49000,35000,51000"
+pts [
+"35000,49000"
+"35000,51000"
+]
+arrow 1
+)
+start &41
+end &42
+)
+]
+bg "65535,65535,65535"
+grid (Grid
+origin "0,0"
+isVisible 1
+isActive 1
+xSpacing 1000
+xySpacing 1000
+xShown 1
+yShown 1
+color "26368,26368,26368"
+)
+packageList &0
+windowSize "94,0,1028,768"
+viewArea "-6100,3200,73233,71978"
+cachedDiagramExtent "12000,4000,50150,58000"
+pageSetupInfo (PageSetupInfo
+ptrCmd ""
+toPrinter 1
+landscape 0
+xMargin 49
+yMargin 49
+paperWidth 761
+paperHeight 1077
+windowsPaperWidth 761
+windowsPaperHeight 1077
+paperType "A4"
+windowsPaperName "A4"
+exportedDirectories [
+"$HDS_PROJECT_DIR/HTMLExport"
+]
+boundaryWidth 0
+)
+hasePageBreakOrigin 1
+pageBreakOrigin "9000,1000"
+isTopLevel 0
+defaultCommentText (CommentText
+shape (Rectangle
+layer 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+lineColor "0,0,32768"
+)
+xt "0,0,15000,5000"
+)
+text (MLText
+va (VaSet
+fg "0,0,32768"
+)
+xt "200,200,2000,1200"
+st "
+Text
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 4600
+visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
+)
+)
+defaultPanel (Panel
+shape (RectFrame
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "32768,0,0"
+lineWidth 3
+)
+xt "0,0,20000,20000"
+)
+title (TextAssociate
+ps "TopLeftStrategy"
+text (Text
+va (VaSet
+font "Arial,8,1"
+)
+xt "1000,1000,3800,2000"
+st "Panel0"
+blo "1000,1800"
+tm "PanelText"
+)
+)
+)
+globalActions &0
+stateRegBlock &0
+signalStatusBlock &0
+archDeclBlock &0
+concStmtBlock &0
+procDeclBlock &0
+)
+)
+*61 (AsmLink
+uid 357,0
+shape (CompositeShape
+uid 358,0
+va (VaSet
+vasetType 1
+fg "0,32896,0"
+)
+optionalChildren [
+(Pentagon
+uid 359,0
+sl 0
+ro 270
+xt "28500,42500,30750,43500"
+)
+(Line
+uid 360,0
+sl 0
+ro 270
+xt "28000,43000,28500,43000"
+pts [
+"28000,43000"
+"28500,43000"
+]
+)
+]
+)
+name (TextAssociate
+uid 361,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 362,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "31250,42500,34250,43500"
+st "waiting"
+blo "31250,43300"
+tm "AsmLinkName"
+)
+)
+inConnect (AsmFlowConnect
+uid 363,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 364,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "27500,42500,28500,43500"
+)
+direction 0
+position 2
+)
+)
+*62 (AsmFlow
+uid 96,0
+optionalChildren [
+*63 (AsmFlowJoin
+uid 98,0
+ps "OnConnectorStrategy"
+shape (Circle
+uid 99,0
+va (VaSet
+vasetType 1
+)
+xt "24850,13850,25150,14150"
+radius 150
+)
+)
+*64 (AsmFlowJoin
+uid 369,0
+ps "OnConnectorStrategy"
+shape (Circle
+uid 370,0
+va (VaSet
+vasetType 1
+)
+xt "24850,14850,25150,15150"
+radius 150
+)
+)
+]
+shape (OrthoPolyLine
+uid 97,0
+va (VaSet
+vasetType 3
+)
+xt "25000,12000,25000,16000"
+pts [
+"25000,12000"
+"25000,16000"
+]
+arrow 1
+)
+start &3
+end &5
+)
+*65 (AsmFlow
+uid 100,0
+shape (OrthoPolyLine
+uid 101,0
+va (VaSet
+vasetType 3
+)
+xt "25000,13000,35000,14000"
+pts [
+"35000,13000"
+"35000,14000"
+"25000,14000"
+]
+arrow 1
+)
+start &4
+end &63
+)
+*66 (AsmFlow
+uid 186,0
+shape (OrthoPolyLine
+uid 187,0
+va (VaSet
+vasetType 3
+)
+xt "25000,18000,25000,19000"
+pts [
+"25000,18000"
+"25000,19000"
+]
+arrow 1
+)
+start &5
+end &17
+)
+*67 (AsmFlow
+uid 195,0
+shape (OrthoPolyLine
+uid 196,0
+va (VaSet
+vasetType 3
+)
+xt "25000,21000,25000,22000"
+pts [
+"25000,21000"
+"25000,22000"
+]
+arrow 1
+)
+start &17
+end &18
+)
+*68 (AsmFlow
+uid 216,0
+shape (OrthoPolyLine
+uid 217,0
+va (VaSet
+vasetType 3
+)
+xt "25000,26000,25000,27000"
+pts [
+"25000,26000"
+"25000,27000"
+]
+arrow 1
+)
+start &18
+end &19
+)
+*69 (AsmFlow
+uid 242,0
+shape (OrthoPolyLine
+uid 243,0
+va (VaSet
+vasetType 3
+)
+xt "25000,29000,25000,31000"
+pts [
+"25000,29000"
+"25000,31000"
+]
+arrow 1
+)
+start &19
+end &20
+)
+*70 (AsmFlow
+uid 251,0
+shape (OrthoPolyLine
+uid 252,0
+va (VaSet
+vasetType 3
+)
+xt "14000,36000,21000,38000"
+pts [
+"21000,36000"
+"21000,37000"
+"14000,37000"
+"14000,38000"
+]
+arrow 1
+)
+start &21
+end &25
+)
+*71 (AsmFlow
+uid 355,0
+shape (OrthoPolyLine
+uid 356,0
+va (VaSet
+vasetType 3
+)
+xt "25000,36000,25000,38000"
+pts [
+"25000,36000"
+"25000,38000"
+]
+arrow 1
+)
+start &22
+end &26
+)
+*72 (AsmFlow
+uid 365,0
+shape (OrthoPolyLine
+uid 366,0
+va (VaSet
+vasetType 3
+)
+xt "25000,40000,28000,43000"
+pts [
+"25000,40000"
+"25000,43000"
+"28000,43000"
+]
+)
+start &26
+end &61
+)
+*73 (AsmFlow
+uid 367,0
+shape (OrthoPolyLine
+uid 368,0
+va (VaSet
+vasetType 3
+)
+xt "8000,15000,25000,41000"
+pts [
+"14000,40000"
+"14000,41000"
+"8000,41000"
+"8000,15000"
+"25000,15000"
+]
+arrow 1
+)
+start &25
+end &64
+es 0
+)
+]
+bg "65535,65535,65535"
+grid (Grid
+origin "0,0"
+isVisible 1
+isActive 1
+xSpacing 1000
+xySpacing 1000
+xShown 1
+yShown 1
+color "26368,26368,26368"
+)
+packageList *74 (PackageList
+uid 27,0
+stg "VerticalLayoutStrategy"
+textVec [
+*75 (Text
+uid 28,0
+va (VaSet
+isHidden 1
+font "arial,8,1"
+)
+xt "0,3000,5400,4000"
+st "Package List"
+blo "0,3800"
+)
+*76 (MLText
+uid 29,0
+va (VaSet
+isHidden 1
+)
+xt "0,4000,10900,7000"
+st "LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;"
+tm "AsmPackageListTextMgr"
+)
+]
+)
+compDirBlock (MlTextGroup
+uid 30,0
+stg "VerticalLayoutStrategy"
+textVec [
+*77 (Text
+uid 31,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "1000,1000,9100,2000"
+st "Compiler Directives"
+blo "1000,1800"
+)
+*78 (Text
+uid 32,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "1000,2000,10600,3000"
+st "Pre-module directives:"
+blo "1000,2800"
+)
+*79 (MLText
+uid 33,0
+va (VaSet
+)
+xt "1000,3000,8500,5000"
+st "`resetall
+`timescale 1ns/10ps"
+tm "AsmCompilerDirectivesTextMgr"
+)
+*80 (Text
+uid 34,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "1000,5000,11100,6000"
+st "Post-module directives:"
+blo "1000,5800"
+)
+*81 (MLText
+uid 35,0
+va (VaSet
+)
+xt "1000,1000,1000,1000"
+tm "AsmCompilerDirectivesTextMgr"
+)
+*82 (Text
+uid 36,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "1000,6000,10900,7000"
+st "End-module directives:"
+blo "1000,6800"
+)
+*83 (MLText
+uid 37,0
+va (VaSet
+)
+xt "1000,7000,1000,7000"
+tm "AsmCompilerDirectivesTextMgr"
+)
+]
+associable 1
+)
+windowSize "90,0,1030,768"
+viewArea "-6500,-1000,54064,57884"
+cachedDiagramExtent "0,0,67000,72000"
+pageSetupInfo (PageSetupInfo
+ptrCmd ""
+toPrinter 1
+landscape 0
+xMargin 49
+yMargin 49
+paperWidth 761
+paperHeight 1077
+windowsPaperWidth 761
+windowsPaperHeight 1077
+paperType "A4"
+windowsPaperName "A4"
+exportedDirectories [
+"$HDS_PROJECT_DIR/HTMLExport"
+]
+boundaryWidth 0
+)
+hasePageBreakOrigin 1
+pageBreakOrigin "0,0"
+isTopLevel 1
+defaultCommentText (CommentText
+shape (Rectangle
+layer 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+lineColor "0,0,32768"
+)
+xt "0,0,15000,5000"
+)
+text (MLText
+va (VaSet
+fg "0,0,32768"
+)
+xt "200,200,2000,1200"
+st "
+Text
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 4600
+visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
+)
+)
+defaultPanel (Panel
+shape (RectFrame
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "32768,0,0"
+lineWidth 3
+)
+xt "0,0,20000,20000"
+)
+title (TextAssociate
+ps "TopLeftStrategy"
+text (Text
+va (VaSet
+font "Arial,8,1"
+)
+xt "1000,1000,3800,2000"
+st "Panel0"
+blo "1000,1800"
+tm "PanelText"
+)
+)
+)
+globalActions *84 (AsmGlobalActionsBlock
+uid 15,0
+stg "VerticalLayoutStrategy"
+textVec [
+*85 (Text
+uid 16,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "11000,1000,17200,2000"
+st "Global Actions"
+blo "11000,1800"
+)
+*86 (Text
+uid 17,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "11000,2000,16300,3000"
+st "Pre Actions:"
+blo "11000,2800"
+)
+*87 (MLText
+uid 18,0
+va (VaSet
+)
+xt "11000,1000,11000,1000"
+tm "AsmActions"
+)
+*88 (Text
+uid 19,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "11000,3000,16800,4000"
+st "Post Actions:"
+blo "11000,3800"
+)
+*89 (MLText
+uid 20,0
+va (VaSet
+)
+xt "11000,4000,11000,4000"
+tm "AsmActions"
+)
+]
+associable 1
+)
+stateRegBlock *90 (AsmStateRegBlock
+uid 21,0
+stg "VerticalLayoutStrategy"
+textVec [
+*91 (Text
+uid 22,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "29000,56000,39800,57000"
+st "State Register Statements"
+blo "29000,56800"
+)
+*92 (MLText
+uid 23,0
+va (VaSet
+)
+xt "29000,57000,29000,57000"
+tm "AsmActions"
+)
+]
+associable 1
+)
+signalStatusBlock *93 (AsmSignalStatusBlock
+uid 24,0
+stg "VerticalLayoutStrategy"
+textVec [
+*94 (Text
+uid 25,0
+va (VaSet
+font "arial,8,1"
+)
+xt "10000,44200,15700,45200"
+st "Signal Status"
+blo "10000,45000"
+)
+*95 (MLText
+uid 26,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "10000,45200,46000,54000"
+st "SIGNAL           MODE    DEFAULT  RESET  SCHEME ASSIGN IN  COMMENT  
+done_rcving      output  0               COMB   <auto>              
+done_xmitting    output  0               COMB   <auto>              
+enable_xmit_clk  output           0      CLKD   <auto>              
+read_bit         output  0               COMB   <auto>              
+rcving           output  0               COMB   <auto>              
+rcv_bit_cnt      output           0      CLKD   <auto>              
+enable_rcv_clk   output  0               COMB   <auto>              
+xmitting         output           0      CLKD   <auto>              
+sout             output  1        1      CLKD   <auto>              
+xmit_bit_cnt     local            0      CLKD   <auto>              
+"
+tm "AsmSignalStatusTextMgr"
+)
+]
+)
+archDeclBlock *96 (AsmArchDeclBlock
+uid 3,0
+stg "VerticalLayoutStrategy"
+textVec [
+*97 (Text
+uid 4,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "20000,56000,28400,57000"
+st "Module Declarations"
+blo "20000,56800"
+)
+*98 (MLText
+uid 5,0
+va (VaSet
+)
+xt "20000,57000,20000,57000"
+tm "AsmArchDeclTextMgr"
+)
+]
+associable 1
+)
+concStmtBlock *99 (AsmConcStmtBlock
+uid 6,0
+stg "VerticalLayoutStrategy"
+textVec [
+*100 (Text
+uid 7,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "10000,56000,19900,57000"
+st "Concurrent Statements"
+blo "10000,56800"
+)
+*101 (MLText
+uid 8,0
+va (VaSet
+)
+xt "10000,57000,10000,57000"
+tm "AsmArchConcStmtTextMgr"
+)
+]
+associable 1
+)
+procDeclBlock *102 (AsmProcessDeclBlock
+uid 9,0
+stg "VerticalLayoutStrategy"
+textVec [
+*103 (Text
+uid 10,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "58100,0,67000,1000"
+st "Process Declarations"
+blo "58100,800"
+)
+*104 (Text
+uid 11,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "58100,1000,65300,2000"
+st "Clocked Process:"
+blo "58100,1800"
+)
+*105 (MLText
+uid 12,0
+va (VaSet
+isHidden 1
+)
+xt "58100,0,58100,0"
+tm "AsmProcDeclTextMgr"
+)
+*106 (Text
+uid 13,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "58100,2000,65000,3000"
+st "Output Process:"
+blo "58100,2800"
+)
+*107 (MLText
+uid 14,0
+va (VaSet
+isHidden 1
+)
+xt "58100,3000,58100,3000"
+tm "AsmProcDeclTextMgr"
+)
+]
+associable 1
+)
+)
+genChar (AsmGenChar
+uid 38,0
+verilogAssignment 1
+nextStateClocking 0
+)
+name "rcv"
+encoding (Encoding
+scheme 1
+encodingStyles [
+(pair
+scheme 0
+style 0
+)
+(pair
+scheme 1
+style 1
+)
+(pair
+scheme 2
+style 0
+)
+(pair
+scheme 3
+style 0
+)
+(pair
+scheme 4
+style 0
+)
+]
+otherValues [
+(pair
+scheme 0
+otherValue ""
+)
+(pair
+scheme 1
+otherValue ""
+)
+(pair
+scheme 2
+otherValue ""
+)
+(pair
+scheme 3
+otherValue ""
+)
+(pair
+scheme 4
+otherValue ""
+)
+]
+attribute 0
+synSafe 0
+outputEncodedLocals 0
+useVerilogParameterRange 1
+radix 2
+)
+stateOrder [
+&5
+&19
+&29
+&31
+&33
+&37
+&40
+&42
+]
+)
+*108 (ConcurrentASM
+uid 376,0
+topDiagram (AsmDiagram
+LanguageMgr "None"
+uid 377,0
+optionalChildren [
+*109 (AsmClockPoint
+uid 414,0
+shape (CompositeShape
+uid 415,0
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+)
+optionalChildren [
+(Pentagon
+uid 416,0
+sl 0
+ro 270
+xt "2875,10500,5125,11500"
+)
+(OrthoPolyLine
+uid 417,0
+sl 0
+ro 270
+va (VaSet
+vasetType 3
+)
+xt "3775,10700,4382,11300"
+pts [
+"3775,11300"
+"4067,11300"
+"4067,10700"
+"4382,10700"
+]
+)
+(Arc2D
+pts [
+"3384,11153"
+"3129,10847"
+"3384,10847"
+]
+uid 418,0
+sl 0
+ro 270
+va (VaSet
+vasetType 1
+transparent 1
+)
+xt "3056,10800,3384,11199"
+)
+]
+)
+name (TextAssociate
+uid 419,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 420,0
+va (VaSet
+)
+xt "1075,10500,2375,11500"
+st "clk"
+ju 2
+blo "2375,11300"
+tm "AsmControlSignalNameMgr"
+)
+)
+cond (AsmControlCondition
+uid 421,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 422,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "0,32768,49152"
+)
+xt "5125,10400,10125,11600"
+)
+autoResize 1
+cond (MLText
+uid 423,0
+va (VaSet
+)
+xt "5225,10500,10025,11500"
+st "posedge clk"
+tm "AsmConditionMgr"
+)
+)
+)
+*110 (AsmResetPoint
+uid 424,0
+shape (CompositeShape
+uid 425,0
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+)
+optionalChildren [
+(Pentagon
+uid 426,0
+sl 0
+xt "24500,6250,25500,8500"
+)
+(OrthoPolyLine
+uid 427,0
+layer 10
+sl 0
+va (VaSet
+vasetType 3
+)
+xt "24700,7150,25300,7750"
+pts [
+"24700,7150"
+"25000,7150"
+"25000,7750"
+"25300,7750"
+]
+)
+(Line
+uid 428,0
+sl 0
+xt "25000,8500,25000,10000"
+pts [
+"25000,8500"
+"25000,10000"
+]
+)
+(Line
+uid 429,0
+sl 0
+xt "25000,6500,25100,6550"
+pts [
+"25100,6500"
+"25000,6550"
+]
+)
+(Line
+uid 430,0
+sl 0
+xt "25000,6500,25000,6850"
+pts [
+"25000,6500"
+"25000,6850"
+]
+)
+(Circle
+uid 431,0
+layer 10
+sl 0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,0"
+)
+xt "24850,7300,25150,7600"
+radius 150
+)
+]
+)
+cond (AsmControlCondition
+uid 437,0
+ps "CenterOffsetStrategy"
+shape (Rectangle
+uid 438,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "0,32768,49152"
+)
+xt "24100,9400,25900,10600"
+)
+autoResize 1
+cond (MLText
+uid 439,0
+va (VaSet
+)
+xt "24200,9500,25800,10500"
+st "!rst"
+tm "AsmConditionMgr"
+)
+)
+prio (AsmPriority
+uid 434,0
+ps "CenterOffsetStrategy"
+shape (Circle
+uid 435,0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineWidth 1
+)
+xt "24219,10219,25781,11781"
+radius 781
+)
+pr (Text
+uid 436,0
+va (VaSet
+isHidden 1
+)
+xt "24600,10500,25400,11500"
+st "1"
+blo "24600,11300"
+tm "AsmPriority"
+)
+padding "100,100"
+)
+name (TextAssociate
+uid 432,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 433,0
+va (VaSet
+)
+xt "24350,4750,25650,5750"
+st "rst"
+blo "24350,5550"
+tm "AsmControlSignalNameMgr"
+)
+)
+actions (TextAssociate
+uid 440,0
+ps "CenterOffsetStrategy"
+text (MLText
+uid 441,0
+va (VaSet
+)
+xt "25500,6250,31000,7250"
+st "< Automatic >"
+tm "AsmActions"
+)
+)
+outConnect (AsmFlowConnect
+uid 442,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 443,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,9500,25500,10500"
+)
+direction 1
+position 1
+)
+)
+*111 (AsmRecoveryStatePoint
+uid 444,0
+shape (CompositeShape
+uid 445,0
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+)
+optionalChildren [
+(Circle
+uid 446,0
+sl 0
+xt "31100,6700,32900,8500"
+radius 900
+)
+(Line
+uid 447,0
+sl 0
+va (VaSet
+vasetType 3
+lineColor "65535,65535,0"
+lineWidth 1
+)
+xt "31574,7174,32426,8026"
+pts [
+"31574,8026"
+"32426,7174"
+]
+)
+(Line
+uid 448,0
+sl 0
+va (VaSet
+vasetType 3
+lineColor "65535,65535,0"
+lineWidth 1
+)
+xt "31574,7174,32426,8026"
+pts [
+"32426,8026"
+"31574,7174"
+]
+)
+(Line
+uid 449,0
+sl 0
+xt "32000,8500,32000,10000"
+pts [
+"32000,8500"
+"32000,10000"
+]
+)
+]
+)
+outConnect (AsmFlowConnect
+uid 450,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 451,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "31500,9500,32500,10500"
+)
+direction 1
+position 1
+)
+)
+*112 (Grouping
+uid 477,0
+optionalChildren [
+*113 (CommentText
+uid 479,0
+shape (Rectangle
+uid 480,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "8000,70000,25000,71000"
+)
+oxt "18000,70000,35000,71000"
+text (MLText
+uid 481,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "8200,70000,17800,71000"
+st "
+by %user on %dd %month %year
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 17000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*114 (CommentText
+uid 482,0
+shape (Rectangle
+uid 483,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "25000,66000,29000,67000"
+)
+oxt "35000,66000,39000,67000"
+text (MLText
+uid 484,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "25200,66000,28200,67000"
+st "
+Project:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*115 (CommentText
+uid 485,0
+shape (Rectangle
+uid 486,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "8000,68000,25000,69000"
+)
+oxt "18000,68000,35000,69000"
+text (MLText
+uid 487,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "8200,68000,15800,69000"
+st "
+RCV receive control
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 17000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*116 (CommentText
+uid 488,0
+shape (Rectangle
+uid 489,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "4000,68000,8000,69000"
+)
+oxt "14000,68000,18000,69000"
+text (MLText
+uid 490,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "4200,68000,6300,69000"
+st "
+Title:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*117 (CommentText
+uid 491,0
+shape (Rectangle
+uid 492,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "25000,67000,45000,71000"
+)
+oxt "35000,67000,55000,71000"
+text (MLText
+uid 493,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "25200,67200,43800,68200"
+st "
+Control the receiving sequence of serial input data.
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 4000
+visibleWidth 20000
+)
+ignorePrefs 1
+titleBlock 1
+)
+*118 (CommentText
+uid 494,0
+shape (Rectangle
+uid 495,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "29000,66000,45000,67000"
+)
+oxt "39000,66000,55000,67000"
+text (MLText
+uid 496,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "29200,66000,33600,67000"
+st "
+%project_name
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 16000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*119 (CommentText
+uid 497,0
+shape (Rectangle
+uid 498,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "4000,66000,25000,68000"
+)
+oxt "14000,66000,35000,68000"
+text (MLText
+uid 499,0
+va (VaSet
+fg "32768,0,0"
+)
+xt "8950,66500,20050,67500"
+st "
+Mentor Graphics Corporation
+"
+ju 0
+tm "CommentText"
+wrapOption 3
+visibleHeight 2000
+visibleWidth 21000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*120 (CommentText
+uid 500,0
+shape (Rectangle
+uid 501,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "4000,69000,8000,70000"
+)
+oxt "14000,69000,18000,70000"
+text (MLText
+uid 502,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "4200,69000,6300,70000"
+st "
+Path:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*121 (CommentText
+uid 503,0
+shape (Rectangle
+uid 504,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "4000,70000,8000,71000"
+)
+oxt "14000,70000,18000,71000"
+text (MLText
+uid 505,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "4200,70000,6900,71000"
+st "
+Edited:
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 4000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+*122 (CommentText
+uid 506,0
+shape (Rectangle
+uid 507,0
+sl 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+)
+xt "8000,69000,25000,70000"
+)
+oxt "18000,69000,35000,70000"
+text (MLText
+uid 508,0
+va (VaSet
+fg "0,0,32768"
+bg "0,0,32768"
+)
+xt "8200,69000,18600,70000"
+st "
+%library/%unit/%view
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 1000
+visibleWidth 17000
+)
+position 1
+ignorePrefs 1
+titleBlock 1
+)
+]
+shape (GroupingShape
+uid 478,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineStyle 2
+lineWidth 2
+)
+xt "4000,66000,45000,71000"
+)
+oxt "14000,66000,55000,71000"
+)
+*123 (AsmStateBox
+uid 748,0
+shape (BarredRectangle
+uid 749,0
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "19000,14000,31000,16000"
+)
+autoResize 1
+name (Text
+uid 750,0
+va (VaSet
+font "arial,10,1"
+)
+xt "20500,14400,29500,15600"
+st "waiting_to_xmit"
+blo "20500,15400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+uid 751,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 752,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "21500,15300,25100,16500"
+st "wait 2"
+blo "21500,16300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+uid 753,0
+va (VaSet
+isHidden 1
+font "arial,10,1"
+)
+xt "25000,16000,25000,16000"
+blo "25000,16000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+uid 754,0
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+uid 755,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "31550,14400,38450,15600"
+)
+autoResize 1
+tline (Line
+uid 756,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "31650,14300,38350,14300"
+pts [
+"31650,14300"
+"38350,14300"
+]
+)
+bline (Line
+uid 757,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "31650,15250,38350,15250"
+pts [
+"31650,15250"
+"38350,15250"
+]
+)
+ttri (Triangle
+uid 758,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "31200,13925,31550,14275"
+)
+btri (Triangle
+uid 759,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "31200,14825,31550,15175"
+)
+entryActions (MLText
+uid 760,0
+va (VaSet
+font "arial,8,0"
+)
+xt "31650,14100,31650,14100"
+tm "AsmActions"
+)
+inActions (MLText
+uid 761,0
+va (VaSet
+font "arial,8,0"
+)
+xt "31650,14500,38350,15500"
+st "xmit_bit_cnt <= 0;"
+tm "AsmActions"
+)
+exitActions (MLText
+uid 762,0
+va (VaSet
+font "arial,8,0"
+)
+xt "35000,15000,35000,15000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+uid 763,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 764,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,13500,25500,14500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 765,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 766,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,15500,25500,16500"
+)
+direction 1
+position 1
+)
+)
+*124 (AsmDecisionBox
+uid 767,0
+shape (Hexagon
+uid 768,0
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "21000,17000,29000,19000"
+)
+condition (MLText
+uid 769,0
+va (VaSet
+font "arial,8,0"
+)
+xt "23000,17500,27000,18500"
+st "start_xmit"
+tm "AsmConditionMgr"
+)
+trueLabel (Text
+uid 770,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "25593,19000,26493,20000"
+st "T"
+blo "25593,19800"
+)
+falseLabel (Text
+uid 771,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "29000,16110,29900,17110"
+st "F"
+blo "29000,16910"
+)
+inConnect (AsmFlowConnect
+uid 772,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 773,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,16500,25500,17500"
+)
+direction 0
+)
+trueConnect (AsmFlowConnect
+uid 774,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 775,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,18500,25500,19500"
+)
+direction 1
+position 1
+)
+falseConnect (AsmFlowConnect
+uid 776,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 777,0
+ro 90
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "28500,17500,29500,18500"
+)
+direction 1
+position 3
+)
+cond "condition"
+elsif 1
+)
+*125 (AsmCompositeStateBox
+uid 778,0
+shape (DoubleBarredRectangle
+uid 779,0
+va (VaSet
+vasetType 1
+fg "29952,39936,65280"
+lineWidth 1
+)
+xt "21000,21000,29000,23000"
+)
+autoResize 1
+name (Text
+uid 780,0
+va (VaSet
+font "arial,10,1"
+)
+xt "22200,21400,27800,22600"
+st "send_byte"
+blo "22200,22400"
+tm "AsmCompositeActionNameMgr"
+)
+inConnect (AsmFlowConnect
+uid 781,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 782,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,20500,25500,21500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 783,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 784,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "24500,22500,25500,23500"
+)
+direction 1
+position 1
+)
+childDiagram *126 (AsmDiagram
+LanguageMgr "None"
+uid 785,0
+optionalChildren [
+*127 (AsmStartPoint
+uid 786,0
+shape (RoundedRectangle
+uid 787,0
+va (VaSet
+vasetType 1
+fg "49152,0,49152"
+lineWidth 1
+)
+xt "19000,4000,25000,6000"
+radius 400
+)
+label (Text
+uid 788,0
+va (VaSet
+fg "65535,65535,65535"
+font "arial,10,1"
+)
+xt "20550,4400,23450,5600"
+st "Start"
+blo "20550,5400"
+)
+outConnect (AsmFlowConnect
+uid 789,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 790,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,5500,22500,6500"
+)
+direction 1
+position 1
+)
+)
+*128 (AsmEndPoint
+uid 791,0
+shape (RoundedRectangle
+uid 792,0
+va (VaSet
+vasetType 1
+fg "49152,0,49152"
+lineWidth 1
+)
+xt "19000,48000,25000,50000"
+radius 400
+)
+label (Text
+uid 793,0
+va (VaSet
+fg "65535,65535,65535"
+font "arial,10,1"
+)
+xt "20750,48400,23250,49600"
+st "End"
+blo "20750,49400"
+)
+inConnect (AsmFlowConnect
+uid 794,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 795,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,47500,22500,48500"
+)
+direction 0
+)
+)
+*129 (AsmStateBox
+uid 796,0
+shape (BarredRectangle
+uid 797,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "17000,9000,27000,11000"
+)
+autoResize 1
+name (Text
+uid 798,0
+va (VaSet
+font "arial,10,1"
+)
+xt "18800,9400,25200,10600"
+st "send_start"
+blo "18800,10400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+uid 799,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 800,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "19800,10300,23400,11500"
+st "wait 2"
+blo "19800,11300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+uid 801,0
+va (VaSet
+isHidden 1
+font "arial,10,1"
+)
+xt "22000,11000,22000,11000"
+blo "22000,11000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+uid 802,0
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+uid 803,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "28100,8400,38100,11600"
+)
+autoResize 1
+tline (Line
+uid 804,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "28200,8300,38000,8300"
+pts [
+"28200,8300"
+"38000,8300"
+]
+)
+bline (Line
+uid 805,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "28200,10750,38000,10750"
+pts [
+"28200,10750"
+"38000,10750"
+]
+)
+ttri (Triangle
+uid 806,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "27750,7925,28100,8275"
+)
+btri (Triangle
+uid 807,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "27750,9825,28100,10175"
+)
+entryActions (MLText
+uid 808,0
+va (VaSet
+font "arial,8,0"
+)
+xt "28200,8100,28200,8100"
+tm "AsmActions"
+)
+inActions (MLText
+uid 809,0
+va (VaSet
+font "arial,8,0"
+)
+xt "28200,8500,38000,11500"
+st "sout_cld <= 0;
+enable_xmit_clk_cld <= 1;
+xmitting_cld <= 1;"
+tm "AsmActions"
+)
+exitActions (MLText
+uid 810,0
+va (VaSet
+font "arial,8,0"
+)
+xt "33100,10000,33100,10000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+uid 811,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 812,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,8500,22500,9500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 813,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 814,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,10500,22500,11500"
+)
+direction 1
+position 1
+)
+)
+*130 (AsmDecisionBox
+uid 815,0
+shape (Hexagon
+uid 816,0
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "18000,12000,26000,14000"
+)
+condition (MLText
+uid 817,0
+va (VaSet
+font "arial,8,0"
+)
+xt "20600,12500,23400,13500"
+st "sample"
+tm "AsmConditionMgr"
+)
+trueLabel (Text
+uid 818,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "22593,14000,23493,15000"
+st "T"
+blo "22593,14800"
+)
+falseLabel (Text
+uid 819,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "26000,11110,26900,12110"
+st "F"
+blo "26000,11910"
+)
+inConnect (AsmFlowConnect
+uid 820,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 821,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,11500,22500,12500"
+)
+direction 0
+)
+trueConnect (AsmFlowConnect
+uid 822,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 823,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,13500,22500,14500"
+)
+direction 1
+position 1
+)
+falseConnect (AsmFlowConnect
+uid 824,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 825,0
+ro 90
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "25500,12500,26500,13500"
+)
+direction 1
+position 3
+)
+cond "condition"
+elsif 1
+)
+*131 (AsmStateBox
+uid 826,0
+shape (BarredRectangle
+uid 827,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "17000,16000,27000,18000"
+)
+autoResize 1
+name (Text
+uid 828,0
+va (VaSet
+font "arial,10,1"
+)
+xt "19150,16400,24850,17600"
+st "send_data"
+blo "19150,17400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+uid 829,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 830,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "20150,17300,23750,18500"
+st "wait 2"
+blo "20150,18300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+uid 831,0
+va (VaSet
+isHidden 1
+font "arial,10,1"
+)
+xt "22000,18000,22000,18000"
+blo "22000,18000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+uid 832,0
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+uid 833,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "28000,16400,40000,17600"
+)
+autoResize 1
+tline (Line
+uid 834,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "28100,16300,39900,16300"
+pts [
+"28100,16300"
+"39900,16300"
+]
+)
+bline (Line
+uid 835,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "28100,17250,39900,17250"
+pts [
+"28100,17250"
+"39900,17250"
+]
+)
+ttri (Triangle
+uid 836,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "27650,15925,28000,16275"
+)
+btri (Triangle
+uid 837,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "27650,16825,28000,17175"
+)
+entryActions (MLText
+uid 838,0
+va (VaSet
+font "arial,8,0"
+)
+xt "28100,16100,28100,16100"
+tm "AsmActions"
+)
+inActions (MLText
+uid 839,0
+va (VaSet
+font "arial,8,0"
+)
+xt "28100,16500,39900,17500"
+st "sout_cld <= xmitdt[xmit_bit_cnt];"
+tm "AsmActions"
+)
+exitActions (MLText
+uid 840,0
+va (VaSet
+font "arial,8,0"
+)
+xt "34000,17000,34000,17000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+uid 841,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 842,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,15500,22500,16500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 843,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 844,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,17500,22500,18500"
+)
+direction 1
+position 1
+)
+)
+*132 (AsmDecisionBox
+uid 845,0
+shape (Hexagon
+uid 846,0
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "18000,19000,26000,21000"
+)
+condition (MLText
+uid 847,0
+va (VaSet
+font "arial,8,0"
+)
+xt "20350,19500,23650,20500"
+st "~sample"
+tm "AsmConditionMgr"
+)
+trueLabel (Text
+uid 848,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "22593,21000,23493,22000"
+st "T"
+blo "22593,21800"
+)
+falseLabel (Text
+uid 849,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "26000,18110,26900,19110"
+st "F"
+blo "26000,18910"
+)
+inConnect (AsmFlowConnect
+uid 850,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 851,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,18500,22500,19500"
+)
+direction 0
+)
+trueConnect (AsmFlowConnect
+uid 852,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 853,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,20500,22500,21500"
+)
+direction 1
+position 1
+)
+falseConnect (AsmFlowConnect
+uid 854,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 855,0
+ro 90
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "25500,19500,26500,20500"
+)
+direction 1
+position 3
+)
+cond "condition"
+elsif 1
+)
+*133 (AsmActionBox
+uid 856,0
+shape (Rectangle
+uid 857,0
+va (VaSet
+vasetType 1
+fg "49152,49152,49152"
+lineWidth 1
+)
+xt "16000,22000,28000,24000"
+)
+autoResize 1
+actions (MLText
+uid 858,0
+va (VaSet
+font "arial,8,0"
+)
+xt "16050,22500,27950,23500"
+st "xmit_bit_cnt <= xmit_bit_cnt + 1;"
+tm "AsmActions"
+)
+inConnect (AsmFlowConnect
+uid 859,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 860,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,21500,22500,22500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 861,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 862,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,23500,22500,24500"
+)
+direction 1
+position 1
+)
+)
+*134 (AsmStateBox
+uid 863,0
+shape (BarredRectangle
+uid 864,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "17000,25000,27000,27000"
+)
+autoResize 1
+name (Text
+uid 865,0
+va (VaSet
+font "arial,10,1"
+)
+xt "18800,25400,25200,26600"
+st "incr_count"
+blo "18800,26400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+uid 866,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 867,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "19800,26300,23400,27500"
+st "wait 2"
+blo "19800,27300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+uid 868,0
+va (VaSet
+isHidden 1
+font "arial,10,1"
+)
+xt "22000,27000,22000,27000"
+blo "22000,27000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+uid 869,0
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+uid 870,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "28000,25400,40000,26600"
+)
+autoResize 1
+tline (Line
+uid 871,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "28100,25300,39900,25300"
+pts [
+"28100,25300"
+"39900,25300"
+]
+)
+bline (Line
+uid 872,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "28100,26250,39900,26250"
+pts [
+"28100,26250"
+"39900,26250"
+]
+)
+ttri (Triangle
+uid 873,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "27650,24925,28000,25275"
+)
+btri (Triangle
+uid 874,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "27650,25825,28000,26175"
+)
+entryActions (MLText
+uid 875,0
+va (VaSet
+font "arial,8,0"
+)
+xt "28100,25100,28100,25100"
+tm "AsmActions"
+)
+inActions (MLText
+uid 876,0
+va (VaSet
+font "arial,8,0"
+)
+xt "28100,25500,39900,26500"
+st "sout_cld <= xmitdt[xmit_bit_cnt];"
+tm "AsmActions"
+)
+exitActions (MLText
+uid 877,0
+va (VaSet
+font "arial,8,0"
+)
+xt "34000,26000,34000,26000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+uid 878,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 879,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,24500,22500,25500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 880,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 881,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,26500,22500,27500"
+)
+direction 1
+position 1
+)
+)
+*135 (AsmDecisionBox
+uid 882,0
+shape (Hexagon
+uid 883,0
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "18000,28000,26000,30000"
+)
+condition (MLText
+uid 884,0
+va (VaSet
+font "arial,8,0"
+)
+xt "20600,28500,23400,29500"
+st "sample"
+tm "AsmConditionMgr"
+)
+trueLabel (Text
+uid 885,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "22593,30000,23493,31000"
+st "T"
+blo "22593,30800"
+)
+falseLabel (Text
+uid 886,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "26000,27110,26900,28110"
+st "F"
+blo "26000,27910"
+)
+inConnect (AsmFlowConnect
+uid 887,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 888,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,27500,22500,28500"
+)
+direction 0
+)
+trueConnect (AsmFlowConnect
+uid 889,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 890,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,29500,22500,30500"
+)
+direction 1
+position 1
+)
+falseConnect (AsmFlowConnect
+uid 891,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 892,0
+ro 90
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "25500,28500,26500,29500"
+)
+direction 1
+position 3
+)
+cond "condition"
+elsif 1
+)
+*136 (AsmStateBox
+uid 904,0
+shape (BarredRectangle
+uid 905,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "17000,34000,27000,36000"
+)
+autoResize 1
+name (Text
+uid 906,0
+va (VaSet
+font "arial,10,1"
+)
+xt "19150,34400,24850,35600"
+st "done_xmit"
+blo "19150,35400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+uid 907,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 908,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "20150,35300,23750,36500"
+st "wait 2"
+blo "20150,36300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+uid 909,0
+va (VaSet
+isHidden 1
+font "arial,10,1"
+)
+xt "22000,36000,22000,36000"
+blo "22000,36000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+uid 910,0
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+uid 911,0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "31900,34900,32100,35100"
+)
+autoResize 1
+tline (Line
+uid 912,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "27750,33800,36250,33800"
+pts [
+"27750,33800"
+"36250,33800"
+]
+)
+bline (Line
+uid 913,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "27750,35500,36250,35500"
+pts [
+"27750,35500"
+"36250,35500"
+]
+)
+ttri (Triangle
+uid 914,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "31550,33425,31900,33775"
+)
+btri (Triangle
+uid 915,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "31550,34825,31900,35175"
+)
+entryActions (MLText
+uid 916,0
+va (VaSet
+font "arial,8,0"
+)
+xt "27750,33600,27750,33600"
+tm "AsmActions"
+)
+inActions (MLText
+uid 917,0
+va (VaSet
+font "arial,8,0"
+)
+xt "27750,34000,36250,36000"
+tm "AsmActions"
+)
+exitActions (MLText
+uid 918,0
+va (VaSet
+font "arial,8,0"
+)
+xt "32000,35000,32000,35000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+uid 919,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 920,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,33500,22500,34500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 921,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 922,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,35500,22500,36500"
+)
+direction 1
+position 1
+)
+)
+*137 (AsmDecisionBox
+uid 923,0
+shape (Hexagon
+uid 924,0
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "18000,37000,26000,39000"
+)
+condition (MLText
+uid 925,0
+va (VaSet
+font "arial,8,0"
+)
+xt "20350,37500,23650,38500"
+st "~sample"
+tm "AsmConditionMgr"
+)
+trueLabel (Text
+uid 926,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "22593,39000,23493,40000"
+st "T"
+blo "22593,39800"
+)
+falseLabel (Text
+uid 927,0
+va (VaSet
+fg "32768,0,0"
+font "arial,8,1"
+)
+xt "26000,36110,26900,37110"
+st "F"
+blo "26000,36910"
+)
+inConnect (AsmFlowConnect
+uid 928,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 929,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,36500,22500,37500"
+)
+direction 0
+)
+trueConnect (AsmFlowConnect
+uid 930,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 931,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,38500,22500,39500"
+)
+direction 1
+position 1
+)
+falseConnect (AsmFlowConnect
+uid 932,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 933,0
+ro 90
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "25500,37500,26500,38500"
+)
+direction 1
+position 3
+)
+cond "condition"
+elsif 1
+)
+*138 (AsmStateBox
+uid 934,0
+shape (BarredRectangle
+uid 935,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "16000,40000,28000,42000"
+)
+autoResize 1
+name (Text
+uid 936,0
+va (VaSet
+font "arial,10,1"
+)
+xt "17950,40400,26050,41600"
+st "send_stop_bit"
+blo "17950,41400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+uid 937,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 938,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "18950,41300,22550,42500"
+st "wait 2"
+blo "18950,42300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+uid 939,0
+va (VaSet
+isHidden 1
+font "arial,10,1"
+)
+xt "22000,42000,22000,42000"
+blo "22000,42000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+uid 940,0
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+uid 941,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "29200,40400,36800,41600"
+)
+autoResize 1
+tline (Line
+uid 942,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "29300,40300,36700,40300"
+pts [
+"29300,40300"
+"36700,40300"
+]
+)
+bline (Line
+uid 943,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "29300,41250,36700,41250"
+pts [
+"29300,41250"
+"36700,41250"
+]
+)
+ttri (Triangle
+uid 944,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "28850,39925,29200,40275"
+)
+btri (Triangle
+uid 945,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "28850,40825,29200,41175"
+)
+entryActions (MLText
+uid 946,0
+va (VaSet
+font "arial,8,0"
+)
+xt "29300,40100,29300,40100"
+tm "AsmActions"
+)
+inActions (MLText
+uid 947,0
+va (VaSet
+font "arial,8,0"
+)
+xt "29300,40500,36700,41500"
+st "done_xmitting <= 1;"
+tm "AsmActions"
+)
+exitActions (MLText
+uid 948,0
+va (VaSet
+font "arial,8,0"
+)
+xt "33000,41000,33000,41000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+uid 949,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 950,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,39500,22500,40500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 951,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 952,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,41500,22500,42500"
+)
+direction 1
+position 1
+)
+)
+*139 (AsmStateBox
+uid 953,0
+shape (BarredRectangle
+uid 954,0
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "17000,44000,27000,46000"
+)
+autoResize 1
+name (Text
+uid 955,0
+va (VaSet
+font "arial,10,1"
+)
+xt "18700,44400,25300,45600"
+st "finish_xmit"
+blo "18700,45400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+uid 956,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 957,0
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "arial,10,1"
+)
+xt "19700,45300,23300,46500"
+st "wait 2"
+blo "19700,46300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+uid 958,0
+va (VaSet
+isHidden 1
+font "arial,10,1"
+)
+xt "22000,46000,22000,46000"
+blo "22000,46000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+uid 959,0
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+uid 960,0
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "28100,43900,38100,46100"
+)
+autoResize 1
+tline (Line
+uid 961,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "28200,43800,38000,43800"
+pts [
+"28200,43800"
+"38000,43800"
+]
+)
+bline (Line
+uid 962,0
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "28200,45500,38000,45500"
+pts [
+"28200,45500"
+"38000,45500"
+]
+)
+ttri (Triangle
+uid 963,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "27750,43425,28100,43775"
+)
+btri (Triangle
+uid 964,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "27750,44825,28100,45175"
+)
+entryActions (MLText
+uid 965,0
+va (VaSet
+font "arial,8,0"
+)
+xt "28200,43600,28200,43600"
+tm "AsmActions"
+)
+inActions (MLText
+uid 966,0
+va (VaSet
+font "arial,8,0"
+)
+xt "28200,44000,38000,46000"
+st "enable_xmit_clk_cld <= 0;
+xmitting_cld <= 0;"
+tm "AsmActions"
+)
+exitActions (MLText
+uid 967,0
+va (VaSet
+font "arial,8,0"
+)
+xt "33100,45000,33100,45000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+uid 968,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 969,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,43500,22500,44500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+uid 970,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 971,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,45500,22500,46500"
+)
+direction 1
+position 1
+)
+)
+*140 (AsmDecisionBox
+uid 1142,0
+shape (Hexagon
+uid 1143,0
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "16000,31000,28000,33000"
+)
+condition (MLText
+uid 1144,0
+va (VaSet
+)
+xt "18750,31500,25250,32500"
+st "xmit_bit_cnt == 0"
+tm "AsmConditionMgr"
+)
+trueLabel (Text
+uid 1145,0
+va (VaSet
+fg "32768,0,0"
+font "Arial,8,1"
+)
+xt "22593,33000,23493,34000"
+st "T"
+blo "22593,33800"
+)
+falseLabel (Text
+uid 1146,0
+va (VaSet
+fg "32768,0,0"
+font "Arial,8,1"
+)
+xt "15100,30110,16000,31110"
+st "F"
+blo "15100,30910"
+)
+inConnect (AsmFlowConnect
+uid 1147,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1148,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,30500,22500,31500"
+)
+direction 0
+)
+trueConnect (AsmFlowConnect
+uid 1149,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1150,0
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "21500,32500,22500,33500"
+)
+direction 1
+position 1
+)
+falseConnect (AsmFlowConnect
+uid 1151,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1152,0
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "15500,31500,16500,32500"
+)
+direction 1
+position 2
+)
+cond "condition"
+elsif 1
+)
+*141 (AsmFlow
+uid 972,0
+optionalChildren [
+*142 (AsmFlowJoin
+uid 974,0
+ps "OnConnectorStrategy"
+shape (Circle
+uid 975,0
+va (VaSet
+vasetType 1
+)
+xt "21850,14850,22150,15150"
+radius 150
+)
+)
+]
+shape (OrthoPolyLine
+uid 973,0
+va (VaSet
+vasetType 3
+)
+xt "22000,14000,22000,16000"
+pts [
+"22000,14000"
+"22000,16000"
+]
+arrow 1
+)
+start &130
+end &131
+)
+*143 (AsmFlow
+uid 976,0
+shape (OrthoPolyLine
+uid 977,0
+va (VaSet
+vasetType 3
+)
+xt "11000,15000,22000,32000"
+pts [
+"16000,32000"
+"11000,32000"
+"11000,15000"
+"22000,15000"
+]
+arrow 1
+)
+start &140
+end &142
+es 0
+)
+*144 (AsmFlow
+uid 978,0
+shape (OrthoPolyLine
+uid 979,0
+va (VaSet
+vasetType 3
+)
+xt "22000,39000,22000,40000"
+pts [
+"22000,39000"
+"22000,40000"
+]
+arrow 1
+)
+start &137
+end &138
+)
+*145 (AsmFlow
+uid 980,0
+shape (OrthoPolyLine
+uid 981,0
+va (VaSet
+vasetType 3
+)
+xt "22000,36000,22000,37000"
+pts [
+"22000,36000"
+"22000,37000"
+]
+arrow 1
+)
+start &136
+end &137
+)
+*146 (AsmFlow
+uid 982,0
+shape (OrthoPolyLine
+uid 983,0
+va (VaSet
+vasetType 3
+)
+xt "22000,21000,22000,22000"
+pts [
+"22000,21000"
+"22000,22000"
+]
+arrow 1
+)
+start &132
+end &133
+)
+*147 (AsmFlow
+uid 984,0
+shape (OrthoPolyLine
+uid 985,0
+va (VaSet
+vasetType 3
+)
+xt "22000,18000,22000,19000"
+pts [
+"22000,18000"
+"22000,19000"
+]
+arrow 1
+)
+start &131
+end &132
+)
+*148 (AsmFlow
+uid 986,0
+shape (OrthoPolyLine
+uid 987,0
+va (VaSet
+vasetType 3
+)
+xt "22000,27000,22000,28000"
+pts [
+"22000,27000"
+"22000,28000"
+]
+arrow 1
+)
+start &134
+end &135
+)
+*149 (AsmFlow
+uid 990,0
+shape (OrthoPolyLine
+uid 991,0
+va (VaSet
+vasetType 3
+)
+xt "22000,11000,22000,12000"
+pts [
+"22000,11000"
+"22000,12000"
+]
+arrow 1
+)
+start &129
+end &130
+)
+*150 (AsmFlow
+uid 992,0
+shape (OrthoPolyLine
+uid 993,0
+va (VaSet
+vasetType 3
+)
+xt "22000,42000,22000,44000"
+pts [
+"22000,42000"
+"22000,44000"
+]
+arrow 1
+)
+start &138
+end &139
+)
+*151 (AsmFlow
+uid 994,0
+shape (OrthoPolyLine
+uid 995,0
+va (VaSet
+vasetType 3
+)
+xt "22000,24000,22000,25000"
+pts [
+"22000,24000"
+"22000,25000"
+]
+arrow 1
+)
+start &133
+end &134
+)
+*152 (AsmFlow
+uid 998,0
+shape (OrthoPolyLine
+uid 999,0
+va (VaSet
+vasetType 3
+)
+xt "22000,6000,22000,9000"
+pts [
+"22000,6000"
+"22000,9000"
+]
+arrow 1
+)
+start &127
+end &129
+)
+*153 (AsmFlow
+uid 1000,0
+shape (OrthoPolyLine
+uid 1001,0
+va (VaSet
+vasetType 3
+)
+xt "22000,46000,22000,48000"
+pts [
+"22000,46000"
+"22000,48000"
+]
+arrow 1
+)
+start &139
+end &128
+)
+*154 (AsmFlow
+uid 1140,0
+shape (OrthoPolyLine
+uid 1141,0
+va (VaSet
+vasetType 3
+)
+xt "22000,30000,22000,31000"
+pts [
+"22000,30000"
+"22000,31000"
+]
+arrow 1
+)
+start &135
+end &140
+)
+*155 (AsmFlow
+uid 1155,0
+shape (OrthoPolyLine
+uid 1156,0
+va (VaSet
+vasetType 3
+)
+xt "22000,33000,22000,34000"
+pts [
+"22000,33000"
+"22000,34000"
+]
+arrow 1
+)
+start &140
+end &136
+)
+]
+bg "65535,65535,65535"
+grid (Grid
+origin "0,0"
+isVisible 1
+isActive 1
+xSpacing 1000
+xySpacing 1000
+xShown 1
+yShown 1
+color "26368,26368,26368"
+)
+packageList &0
+windowSize "94,0,1028,768"
+viewArea "-7900,0,52076,51996"
+cachedDiagramExtent "11000,4000,40000,50000"
+pageSetupInfo (PageSetupInfo
+ptrCmd ""
+toPrinter 1
+landscape 0
+xMargin 49
+yMargin 49
+paperWidth 761
+paperHeight 1077
+windowsPaperWidth 761
+windowsPaperHeight 1077
+paperType "A4"
+windowsPaperName "A4"
+exportedDirectories [
+"$HDS_PROJECT_DIR/HTMLExport"
+]
+boundaryWidth 0
+)
+hasePageBreakOrigin 1
+pageBreakOrigin "0,0"
+isTopLevel 0
+defaultCommentText (CommentText
+shape (Rectangle
+layer 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+lineColor "0,0,32768"
+)
+xt "0,0,15000,5000"
+)
+text (MLText
+va (VaSet
+fg "0,0,32768"
+)
+xt "200,200,2000,1200"
+st "
+Text
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 4600
+visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
+)
+)
+defaultPanel (Panel
+shape (RectFrame
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "32768,0,0"
+lineWidth 3
+)
+xt "0,0,20000,20000"
+)
+title (TextAssociate
+ps "TopLeftStrategy"
+text (Text
+va (VaSet
+font "Arial,8,1"
+)
+xt "1000,1000,3800,2000"
+st "Panel0"
+blo "1000,1800"
+tm "PanelText"
+)
+)
+)
+globalActions &0
+stateRegBlock &0
+signalStatusBlock &0
+archDeclBlock &0
+concStmtBlock &0
+procDeclBlock &0
+)
+)
+*156 (AsmLink
+uid 1002,0
+shape (CompositeShape
+uid 1003,0
+va (VaSet
+vasetType 1
+fg "0,32896,0"
+)
+optionalChildren [
+(Pentagon
+uid 1004,0
+sl 0
+ro 270
+xt "27500,25500,29750,26500"
+)
+(Line
+uid 1005,0
+sl 0
+ro 270
+xt "27000,26000,27500,26000"
+pts [
+"27000,26000"
+"27500,26000"
+]
+)
+]
+)
+name (TextAssociate
+uid 1006,0
+ps "CenterOffsetStrategy"
+text (Text
+uid 1007,0
+va (VaSet
+font "arial,8,1"
+)
+xt "30250,25500,36850,26500"
+st "waiting_to_xmit"
+blo "30250,26300"
+tm "AsmLinkName"
+)
+)
+inConnect (AsmFlowConnect
+uid 1008,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 1009,0
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "26500,25500,27500,26500"
+)
+direction 0
+position 2
+)
+)
+*157 (AsmFlow
+uid 471,0
+optionalChildren [
+*158 (AsmFlowJoin
+uid 473,0
+ps "OnConnectorStrategy"
+shape (Circle
+uid 474,0
+va (VaSet
+vasetType 1
+)
+xt "24850,11850,25150,12150"
+radius 150
+)
+)
+]
+shape (OrthoPolyLine
+uid 472,0
+va (VaSet
+vasetType 3
+)
+xt "25000,10000,25000,14000"
+pts [
+"25000,10000"
+"25000,14000"
+]
+arrow 1
+)
+start &110
+end &123
+)
+*159 (AsmFlow
+uid 475,0
+shape (OrthoPolyLine
+uid 476,0
+va (VaSet
+vasetType 3
+)
+xt "25000,10000,32000,12000"
+pts [
+"32000,10000"
+"32000,12000"
+"25000,12000"
+]
+arrow 1
+)
+start &111
+end &158
+)
+*160 (AsmFlow
+uid 1010,0
+shape (OrthoPolyLine
+uid 1011,0
+va (VaSet
+vasetType 3
+)
+xt "25000,16000,25000,17000"
+pts [
+"25000,16000"
+"25000,17000"
+]
+arrow 1
+)
+start &123
+end &124
+)
+*161 (AsmFlow
+uid 1012,0
+shape (OrthoPolyLine
+uid 1013,0
+va (VaSet
+vasetType 3
+)
+xt "25000,23000,27000,26000"
+pts [
+"25000,23000"
+"25000,26000"
+"27000,26000"
+]
+)
+start &125
+end &156
+)
+*162 (AsmFlow
+uid 1014,0
+shape (OrthoPolyLine
+uid 1015,0
+va (VaSet
+vasetType 3
+)
+xt "25000,19000,25000,21000"
+pts [
+"25000,19000"
+"25000,21000"
+]
+arrow 1
+)
+start &124
+end &125
+)
+]
+bg "65535,65535,65535"
+grid (Grid
+origin "0,0"
+isVisible 1
+isActive 1
+xSpacing 1000
+xySpacing 1000
+xShown 1
+yShown 1
+color "26368,26368,26368"
+)
+packageList *163 (PackageList
+uid 402,0
+stg "VerticalLayoutStrategy"
+textVec [
+*164 (Text
+uid 403,0
+va (VaSet
+isHidden 1
+font "arial,8,1"
+)
+xt "0,0,5400,1000"
+st "Package List"
+blo "0,800"
+)
+*165 (MLText
+uid 404,0
+va (VaSet
+isHidden 1
+)
+xt "0,1000,10900,4000"
+st "LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;"
+tm "AsmPackageListTextMgr"
+)
+]
+)
+compDirBlock (MlTextGroup
+uid 405,0
+stg "VerticalLayoutStrategy"
+textVec [
+*166 (Text
+uid 406,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "1000,1000,9100,2000"
+st "Compiler Directives"
+blo "1000,1800"
+)
+*167 (Text
+uid 407,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "1000,2000,10600,3000"
+st "Pre-module directives:"
+blo "1000,2800"
+)
+*168 (MLText
+uid 408,0
+va (VaSet
+)
+xt "1000,3000,8500,5000"
+st "`resetall
+`timescale 1ns/10ps"
+tm "AsmCompilerDirectivesTextMgr"
+)
+*169 (Text
+uid 409,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "1000,5000,11100,6000"
+st "Post-module directives:"
+blo "1000,5800"
+)
+*170 (MLText
+uid 410,0
+va (VaSet
+)
+xt "1000,1000,1000,1000"
+tm "AsmCompilerDirectivesTextMgr"
+)
+*171 (Text
+uid 411,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "1000,6000,10900,7000"
+st "End-module directives:"
+blo "1000,6800"
+)
+*172 (MLText
+uid 412,0
+va (VaSet
+)
+xt "1000,2000,1000,2000"
+tm "AsmCompilerDirectivesTextMgr"
+)
+]
+associable 1
+)
+windowSize "90,0,1030,768"
+viewArea "700,200,46844,45064"
+cachedDiagramExtent "0,0,67000,71000"
+pageSetupInfo (PageSetupInfo
+ptrCmd ""
+toPrinter 1
+landscape 0
+xMargin 49
+yMargin 49
+paperWidth 761
+paperHeight 1077
+windowsPaperWidth 761
+windowsPaperHeight 1077
+paperType "A4"
+windowsPaperName "A4"
+exportedDirectories [
+"$HDS_PROJECT_DIR/HTMLExport"
+]
+boundaryWidth 0
+)
+hasePageBreakOrigin 1
+pageBreakOrigin "0,0"
+isTopLevel 1
+defaultCommentText (CommentText
+shape (Rectangle
+layer 0
+va (VaSet
+vasetType 1
+fg "65280,65280,46080"
+lineColor "0,0,32768"
+)
+xt "0,0,15000,5000"
+)
+text (MLText
+va (VaSet
+fg "0,0,32768"
+)
+xt "200,200,2000,1200"
+st "
+Text
+"
+tm "CommentText"
+wrapOption 3
+visibleHeight 4600
+visibleWidth 14600
+)
+)
+defaultRequirementText (RequirementText
+shape (ZoomableIcon
+layer 0
+va (VaSet
+vasetType 1
+fg "59904,39936,65280"
+lineColor "0,0,32768"
+)
+xt "0,0,1500,1750"
+iconName "reqTracerRequirement.bmp"
+iconMaskName "reqTracerRequirement.msk"
+)
+autoResize 1
+text (MLText
+va (VaSet
+fg "0,0,32768"
+font "arial,8,0"
+)
+xt "500,2150,1400,3150"
+st "
+Text
+"
+tm "RequirementText"
+wrapOption 3
+visibleHeight 1350
+visibleWidth 1100
+)
+)
+defaultPanel (Panel
+shape (RectFrame
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "32768,0,0"
+lineWidth 3
+)
+xt "0,0,20000,20000"
+)
+title (TextAssociate
+ps "TopLeftStrategy"
+text (Text
+va (VaSet
+font "Arial,8,1"
+)
+xt "1000,1000,3800,2000"
+st "Panel0"
+blo "1000,1800"
+tm "PanelText"
+)
+)
+)
+globalActions *173 (AsmGlobalActionsBlock
+uid 390,0
+stg "VerticalLayoutStrategy"
+textVec [
+*174 (Text
+uid 391,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "11000,1000,17200,2000"
+st "Global Actions"
+blo "11000,1800"
+)
+*175 (Text
+uid 392,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "11000,2000,16300,3000"
+st "Pre Actions:"
+blo "11000,2800"
+)
+*176 (MLText
+uid 393,0
+va (VaSet
+)
+xt "11000,1000,11000,1000"
+tm "AsmActions"
+)
+*177 (Text
+uid 394,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "11000,3000,16800,4000"
+st "Post Actions:"
+blo "11000,3800"
+)
+*178 (MLText
+uid 395,0
+va (VaSet
+)
+xt "11000,4000,11000,4000"
+tm "AsmActions"
+)
+]
+associable 1
+)
+stateRegBlock *179 (AsmStateRegBlock
+uid 396,0
+stg "VerticalLayoutStrategy"
+textVec [
+*180 (Text
+uid 397,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "26000,40000,36800,41000"
+st "State Register Statements"
+blo "26000,40800"
+)
+*181 (MLText
+uid 398,0
+va (VaSet
+)
+xt "26000,41000,26000,41000"
+tm "AsmActions"
+)
+]
+associable 1
+)
+signalStatusBlock *182 (AsmSignalStatusBlock
+uid 399,0
+stg "VerticalLayoutStrategy"
+textVec [
+*183 (Text
+uid 400,0
+va (VaSet
+font "arial,8,1"
+)
+xt "9000,28200,14700,29200"
+st "Signal Status"
+blo "9000,29000"
+)
+*184 (MLText
+uid 401,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "9000,29200,45000,38000"
+st "SIGNAL           MODE    DEFAULT  RESET  SCHEME ASSIGN IN  COMMENT  
+done_rcving      output  0               COMB   <auto>              
+done_xmitting    output  0               COMB   <auto>              
+enable_xmit_clk  output           0      CLKD   <auto>              
+read_bit         output  0               COMB   <auto>              
+rcving           output  0               COMB   <auto>              
+rcv_bit_cnt      output           0      CLKD   <auto>              
+enable_rcv_clk   output  0               COMB   <auto>              
+xmitting         output           0      CLKD   <auto>              
+sout             output  1        1      CLKD   <auto>              
+xmit_bit_cnt     local            0      CLKD   <auto>              
+"
+tm "AsmSignalStatusTextMgr"
+)
+]
+)
+archDeclBlock *185 (AsmArchDeclBlock
+uid 378,0
+stg "VerticalLayoutStrategy"
+textVec [
+*186 (Text
+uid 379,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "18000,40000,26400,41000"
+st "Module Declarations"
+blo "18000,40800"
+)
+*187 (MLText
+uid 380,0
+va (VaSet
+)
+xt "18000,41000,18000,41000"
+tm "AsmArchDeclTextMgr"
+)
+]
+associable 1
+)
+concStmtBlock *188 (AsmConcStmtBlock
+uid 381,0
+stg "VerticalLayoutStrategy"
+textVec [
+*189 (Text
+uid 382,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "9000,40000,18900,41000"
+st "Concurrent Statements"
+blo "9000,40800"
+)
+*190 (MLText
+uid 383,0
+va (VaSet
+)
+xt "9000,41000,9000,41000"
+tm "AsmArchConcStmtTextMgr"
+)
+]
+associable 1
+)
+procDeclBlock *191 (AsmProcessDeclBlock
+uid 384,0
+stg "VerticalLayoutStrategy"
+textVec [
+*192 (Text
+uid 385,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "58100,0,67000,1000"
+st "Process Declarations"
+blo "58100,800"
+)
+*193 (Text
+uid 386,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "58100,1000,65300,2000"
+st "Clocked Process:"
+blo "58100,1800"
+)
+*194 (MLText
+uid 387,0
+va (VaSet
+isHidden 1
+)
+xt "58100,0,58100,0"
+tm "AsmProcDeclTextMgr"
+)
+*195 (Text
+uid 388,0
+va (VaSet
+isHidden 1
+font "Arial,8,1"
+)
+xt "58100,2000,65000,3000"
+st "Output Process:"
+blo "58100,2800"
+)
+*196 (MLText
+uid 389,0
+va (VaSet
+isHidden 1
+)
+xt "58100,3000,58100,3000"
+tm "AsmProcDeclTextMgr"
+)
+]
+associable 1
+)
+)
+genChar (AsmGenChar
+uid 413,0
+verilogAssignment 1
+nextStateClocking 0
+)
+name "xmit"
+encoding (Encoding
+scheme 1
+encodingStyles [
+(pair
+scheme 0
+style 0
+)
+(pair
+scheme 1
+style 1
+)
+(pair
+scheme 2
+style 0
+)
+(pair
+scheme 3
+style 0
+)
+(pair
+scheme 4
+style 0
+)
+]
+otherValues [
+(pair
+scheme 0
+otherValue ""
+)
+(pair
+scheme 1
+otherValue ""
+)
+(pair
+scheme 2
+otherValue ""
+)
+(pair
+scheme 3
+otherValue ""
+)
+(pair
+scheme 4
+otherValue ""
+)
+]
+attribute 0
+synSafe 0
+outputEncodedLocals 0
+useVerilogParameterRange 1
+radix 2
+)
+stateOrder [
+&123
+&129
+&131
+&134
+&136
+&138
+&139
+]
+)
+]
+lastUid 1476,0
+LanguageMgr "VerilogLangMgr"
+commonDM (CommonDM
+ldm (LogicalDM
+suid 1463,0
+emptyRow *197 (LEmptyRow
+)
+uid 135,0
+optionalChildren [
+*198 (RefLabelRowHdr
+)
+*199 (TitleRowHdr
+)
+*200 (FilterRowHdr
+)
+*201 (RefLabelColHdr
+tm "RefLabelColHdrMgr"
+)
+*202 (RowExpandColHdr
+tm "RowExpandColHdrMgr"
+)
+*203 (GroupColHdr
+tm "GroupColHdrMgr"
+)
+*204 (NameColHdr
+tm "AsmNameColHdrMgr"
+)
+*205 (ModeColHdr
+tm "AsmModeColHdrMgr"
+)
+*206 (TypeColHdr
+tm "AsmTypeColHdrMgr"
+)
+*207 (BoundsColHdr
+tm "AsmBoundsColHdrMgr"
+)
+*208 (DelayColHdr
+tm "AsmDelayColHdrMgr"
+)
+*209 (ColumnHdr
+tm "AsmCategoryColHdrMgr"
+)
+*210 (ColumnHdr
+tm "AsmAssignColHdrMgr"
+)
+*211 (ColumnHdr
+tm "AsmExprColHdrMgr"
+)
+*212 (ColumnHdr
+tm "AsmSchemeColHdrMgr"
+)
+*213 (ColumnHdr
+tm "AsmDefValColHdrMgr"
+)
+*214 (ColumnHdr
+tm "AsmRstValColHdrMgr"
+)
+*215 (EolColHdr
+tm "AsmEolColHdrMgr"
+)
+*216 (LeafLogPort
+port (LogicalPort
+lang 4
+decl (Decl
+n "clk"
+t "wire"
+o 1
+)
+)
+uid 254,0
+cat 1
+ass ""
+expr "posedge clk"
+)
+*217 (LeafLogPort
+port (LogicalPort
+lang 4
+m 1
+decl (Decl
+n "done_rcving"
+t "reg"
+o 7
+)
+)
+uid 256,0
+scheme 0
+defVal "0"
+)
+*218 (LeafLogPort
+port (LogicalPort
+lang 4
+m 1
+decl (Decl
+n "done_xmitting"
+t "reg"
+o 8
+)
+)
+uid 258,0
+scheme 0
+defVal "0"
+)
+*219 (LeafLogPort
+port (LogicalPort
+lang 4
+m 1
+decl (Decl
+n "enable_xmit_clk"
+t "reg"
+o 10
+)
+)
+uid 260,0
+scheme 1
+rstVal "0"
+)
+*220 (LeafLogPort
+port (LogicalPort
+lang 4
+m 1
+decl (Decl
+n "read_bit"
+t "reg"
+o 13
+)
+)
+uid 262,0
+scheme 0
+defVal "0"
+)
+*221 (LeafLogPort
+port (LogicalPort
+lang 4
+m 1
+decl (Decl
+n "rcving"
+t "reg"
+o 12
+)
+)
+uid 264,0
+scheme 0
+defVal "0"
+)
+*222 (LeafLogPort
+port (LogicalPort
+lang 4
+m 1
+decl (Decl
+n "rcv_bit_cnt"
+t "reg"
+b "[2:0]"
+o 11
+)
+)
+uid 266,0
+scheme 1
+rstVal "0"
+)
+*223 (LeafLogPort
+port (LogicalPort
+lang 4
+m 1
+decl (Decl
+n "enable_rcv_clk"
+t "reg"
+o 9
+)
+)
+uid 268,0
+scheme 0
+defVal "0"
+)
+*224 (LeafLogPort
+port (LogicalPort
+lang 4
+decl (Decl
+n "rst"
+t "wire"
+o 2
+)
+)
+uid 270,0
+cat 8
+ass ""
+expr "!rst"
+)
+*225 (LeafLogPort
+port (LogicalPort
+lang 4
+decl (Decl
+n "start_xmit"
+t "wire"
+o 5
+)
+)
+uid 272,0
+ass ""
+)
+*226 (LeafLogPort
+port (LogicalPort
+lang 4
+decl (Decl
+n "sin"
+t "wire"
+o 4
+)
+)
+uid 274,0
+ass ""
+)
+*227 (LeafLogPort
+port (LogicalPort
+lang 4
+decl (Decl
+n "sample"
+t "wire"
+o 3
+)
+)
+uid 276,0
+ass ""
+)
+*228 (LeafLogPort
+port (LogicalPort
+lang 4
+m 1
+decl (Decl
+n "xmitting"
+t "reg"
+o 15
+)
+)
+uid 278,0
+scheme 1
+rstVal "0"
+)
+*229 (LeafLogPort
+port (LogicalPort
+lang 4
+m 1
+decl (Decl
+n "sout"
+t "reg"
+o 14
+)
+)
+uid 280,0
+scheme 1
+defVal "1"
+rstVal "1"
+)
+*230 (LeafLogPort
+port (LogicalPort
+lang 4
+decl (Decl
+n "xmitdt"
+t "wire"
+b "[7:0]"
+o 6
+)
+)
+uid 282,0
+ass ""
+)
+*231 (LGroup
+name "Locals"
+comment "Local Signals"
+uid 1035,0
+optionalChildren [
+*232 (LeafLogPort
+port (LogicalPort
+lang 4
+m 4
+decl (Decl
+n "xmit_bit_cnt"
+t "reg"
+b "[2:0]"
+o 16
+)
+)
+uid 371,0
+scheme 1
+rstVal "0"
+)
+]
+)
+]
+)
+pdm (PhysicalDM
+uid 154,0
+optionalChildren [
+*233 (Sheet
+sheetRow (SheetRow
+headerVa (MVa
+cellColor "49152,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+cellVa (MVa
+cellColor "65535,65535,65535"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+groupVa (MVa
+cellColor "39936,56832,65280"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+emptyMRCItem *234 (MRCItem
+litem &197
+pos 17
+dimension 20
+)
+uid 156,0
+optionalChildren [
+*235 (MRCItem
+litem &198
+pos 0
+dimension 20
+uid 157,0
+)
+*236 (MRCItem
+litem &199
+pos 1
+dimension 20
+uid 158,0
+)
+*237 (MRCItem
+litem &200
+pos 2
+hidden 1
+dimension 20
+uid 159,0
+)
+*238 (MRCItem
+litem &216
+pos 13
+dimension 20
+uid 253,0
+)
+*239 (MRCItem
+litem &217
+pos 0
+dimension 20
+uid 255,0
+)
+*240 (MRCItem
+litem &218
+pos 1
+dimension 20
+uid 257,0
+)
+*241 (MRCItem
+litem &219
+pos 3
+dimension 20
+uid 259,0
+)
+*242 (MRCItem
+litem &220
+pos 6
+dimension 20
+uid 261,0
+)
+*243 (MRCItem
+litem &221
+pos 5
+dimension 20
+uid 263,0
+)
+*244 (MRCItem
+litem &222
+pos 4
+dimension 20
+uid 265,0
+)
+*245 (MRCItem
+litem &223
+pos 2
+dimension 20
+uid 267,0
+)
+*246 (MRCItem
+litem &224
+pos 14
+dimension 20
+uid 269,0
+)
+*247 (MRCItem
+litem &225
+pos 10
+dimension 20
+uid 271,0
+)
+*248 (MRCItem
+litem &226
+pos 8
+dimension 20
+uid 273,0
+)
+*249 (MRCItem
+litem &227
+pos 7
+dimension 20
+uid 275,0
+)
+*250 (MRCItem
+litem &228
+pos 12
+dimension 20
+uid 277,0
+)
+*251 (MRCItem
+litem &229
+pos 9
+dimension 20
+uid 279,0
+)
+*252 (MRCItem
+litem &230
+pos 11
+dimension 20
+uid 281,0
+)
+*253 (MRCItem
+litem &232
+pos 16
+relPos 0
+dimension 20
+uid 372,0
+)
+*254 (MRCItem
+litem &231
+pos 15
+dimension 20
+expanded 1
+uid 1036,0
+)
+]
+)
+sheetCol (SheetCol
+propVa (MVa
+cellColor "0,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+textAngle 90
+)
+uid 160,0
+optionalChildren [
+*255 (MRCItem
+litem &201
+pos 0
+dimension 20
+uid 161,0
+)
+*256 (MRCItem
+litem &204
+pos 2
+dimension 70
+uid 163,0
+)
+*257 (MRCItem
+litem &205
+pos 3
+dimension 50
+uid 164,0
+)
+*258 (MRCItem
+litem &206
+pos 4
+dimension 80
+uid 165,0
+)
+*259 (MRCItem
+litem &207
+pos 5
+dimension 80
+uid 166,0
+)
+*260 (MRCItem
+litem &208
+pos 6
+dimension 40
+uid 167,0
+)
+*261 (MRCItem
+litem &209
+pos 7
+dimension 100
+uid 168,0
+)
+*262 (MRCItem
+litem &210
+pos 8
+dimension 60
+uid 169,0
+)
+*263 (MRCItem
+litem &211
+pos 9
+dimension 130
+uid 170,0
+)
+*264 (MRCItem
+litem &212
+pos 10
+dimension 56
+uid 171,0
+)
+*265 (MRCItem
+litem &213
+pos 11
+dimension 50
+uid 172,0
+)
+*266 (MRCItem
+litem &214
+pos 12
+dimension 50
+uid 173,0
+)
+*267 (MRCItem
+litem &215
+pos 13
+dimension 80
+uid 174,0
+)
+*268 (MRCItem
+litem &202
+pos 1
+dimension 20
+uid 373,0
+)
+]
+)
+fixedCol 4
+fixedRow 2
+name "Ports"
+flatMode 0
+uid 155,0
+vaOverrides [
+]
+)
+]
+)
+uid 134,0
+)
+cdmCasm &1
+genericsCommonDM (CommonDM
+ldm (LogicalDM
+emptyRow *269 (LEmptyRow
+)
+uid 1266,0
+optionalChildren [
+*270 (RefLabelRowHdr
+)
+*271 (TitleRowHdr
+)
+*272 (FilterRowHdr
+)
+*273 (RefLabelColHdr
+tm "RefLabelColHdrMgr"
+)
+*274 (RowExpandColHdr
+tm "RowExpandColHdrMgr"
+)
+*275 (GroupColHdr
+tm "GroupColHdrMgr"
+)
+*276 (NameColHdr
+tm "GenericNameColHdrMgr"
+)
+*277 (ColumnHdr
+tm "GenericValueColHdrMgr"
+)
+*278 (EolColHdr
+tm "GenericEolColHdrMgr"
+)
+]
+)
+pdm (PhysicalDM
+uid 1276,0
+optionalChildren [
+*279 (Sheet
+sheetRow (SheetRow
+headerVa (MVa
+cellColor "49152,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+cellVa (MVa
+cellColor "65535,65535,65535"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+groupVa (MVa
+cellColor "39936,56832,65280"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+emptyMRCItem *280 (MRCItem
+litem &269
+pos 0
+dimension 20
+)
+uid 1278,0
+optionalChildren [
+*281 (MRCItem
+litem &270
+pos 0
+dimension 20
+uid 1279,0
+)
+*282 (MRCItem
+litem &271
+pos 1
+dimension 23
+uid 1280,0
+)
+*283 (MRCItem
+litem &272
+pos 2
+hidden 1
+dimension 20
+uid 1281,0
+)
+]
+)
+sheetCol (SheetCol
+propVa (MVa
+cellColor "0,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+textAngle 90
+)
+uid 1282,0
+optionalChildren [
+*284 (MRCItem
+litem &273
+pos 0
+dimension 20
+uid 1283,0
+)
+*285 (MRCItem
+litem &275
+pos 1
+dimension 50
+uid 1284,0
+)
+*286 (MRCItem
+litem &276
+pos 2
+dimension 100
+uid 1285,0
+)
+*287 (MRCItem
+litem &277
+pos 3
+dimension 50
+uid 1286,0
+)
+*288 (MRCItem
+litem &278
+pos 4
+dimension 80
+uid 1287,0
+)
+]
+)
+fixedCol 3
+fixedRow 2
+name "Ports"
+uid 1277,0
+vaOverrides [
+]
+)
+]
+)
+uid 1265,0
+type 1
+)
+defaultInterruptPt (AsmInterruptPoint
+shape (CompositeShape
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+)
+optionalChildren [
+(Pentagon
+sl 0
+xt "0,0,1000,2250"
+)
+(Line
+sl 0
+xt "500,2250,500,3750"
+pts [
+"500,2250"
+"500,3750"
+]
+)
+(CustomPolygon
+pts [
+"275,250"
+"575,250"
+"450,900"
+"725,800"
+"525,1900"
+"525,1075"
+"275,1250"
+]
+sl 0
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+bg "65535,0,0"
+lineColor "65535,65535,0"
+)
+xt "275,250,725,1900"
+)
+]
+)
+cond (AsmControlCondition
+ps "CenterOffsetStrategy"
+shape (Rectangle
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "0,32768,49152"
+)
+xt "-600,5150,1600,6350"
+)
+autoResize 1
+cond (MLText
+va (VaSet
+)
+xt "-500,5250,1500,6250"
+st "cond"
+tm "AsmConditionMgr"
+)
+)
+prio (AsmPriority
+ps "CenterOffsetStrategy"
+shape (Circle
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineWidth 1
+)
+xt "-281,3969,1281,5531"
+radius 781
+)
+pr (Text
+va (VaSet
+)
+xt "100,4250,900,5250"
+st "1"
+blo "100,5050"
+tm "AsmPriority"
+)
+padding "100,100"
+)
+outConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "0,3250,1000,4250"
+)
+direction 1
+position 1
+)
+)
+defaultResetPt (AsmResetPoint
+shape (CompositeShape
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+)
+optionalChildren [
+(Pentagon
+sl 0
+xt "0,0,1000,2250"
+)
+(OrthoPolyLine
+layer 10
+sl 0
+va (VaSet
+vasetType 3
+)
+xt "200,900,800,1500"
+pts [
+"200,900"
+"500,900"
+"500,1500"
+"800,1500"
+]
+)
+(Line
+sl 0
+xt "500,2250,500,3750"
+pts [
+"500,2250"
+"500,3750"
+]
+)
+(Line
+sl 0
+xt "500,250,600,300"
+pts [
+"600,250"
+"500,300"
+]
+)
+(Line
+sl 0
+xt "500,250,500,600"
+pts [
+"500,250"
+"500,600"
+]
+)
+(Circle
+layer 10
+sl 0
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,0"
+)
+xt "350,1050,650,1350"
+radius 150
+)
+]
+)
+cond (AsmControlCondition
+ps "CenterOffsetStrategy"
+shape (Rectangle
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "0,32768,49152"
+)
+xt "-600,5150,1600,6350"
+)
+autoResize 1
+cond (MLText
+va (VaSet
+)
+xt "-500,5250,1500,6250"
+st "cond"
+tm "AsmConditionMgr"
+)
+)
+prio (AsmPriority
+ps "CenterOffsetStrategy"
+shape (Circle
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineWidth 1
+)
+xt "-281,3969,1281,5531"
+radius 781
+)
+pr (Text
+va (VaSet
+)
+xt "100,4250,900,5250"
+st "1"
+blo "100,5050"
+tm "AsmPriority"
+)
+padding "100,100"
+)
+name (TextAssociate
+ps "CenterOffsetStrategy"
+text (Text
+va (VaSet
+)
+xt "-150,-1500,1150,-500"
+st "rst"
+blo "-150,-700"
+tm "AsmControlSignalNameMgr"
+)
+)
+actions (TextAssociate
+ps "CenterOffsetStrategy"
+text (MLText
+va (VaSet
+)
+xt "1000,0,6500,1000"
+st "< Automatic >"
+tm "AsmActions"
+)
+)
+outConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "0,3250,1000,4250"
+)
+direction 1
+position 1
+)
+)
+defaultRecStatePt (AsmRecoveryStatePoint
+shape (CompositeShape
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+)
+optionalChildren [
+(Circle
+sl 0
+xt "-900,-900,900,900"
+radius 900
+)
+(Line
+sl 0
+va (VaSet
+vasetType 3
+lineColor "65535,65535,0"
+lineWidth 1
+)
+xt "-426,-426,426,426"
+pts [
+"-426,426"
+"426,-426"
+]
+)
+(Line
+sl 0
+va (VaSet
+vasetType 3
+lineColor "65535,65535,0"
+lineWidth 1
+)
+xt "-426,-426,426,426"
+pts [
+"426,426"
+"-426,-426"
+]
+)
+(Line
+sl 0
+xt "0,900,0,2400"
+pts [
+"0,900"
+"0,2400"
+]
+)
+]
+)
+outConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "-500,1900,500,2900"
+)
+direction 1
+position 1
+)
+)
+defaultEnablePt (AsmEnablePoint
+shape (CompositeShape
+va (VaSet
+vasetType 1
+fg "65535,65535,0"
+)
+optionalChildren [
+(Pentagon
+sl 0
+ro 270
+xt "-625,625,1625,1625"
+)
+(OrthoPolyLine
+sl 0
+ro 270
+va (VaSet
+vasetType 3
+)
+xt "275,825,875,1425"
+pts [
+"275,825"
+"575,825"
+"575,1425"
+"875,1425"
+]
+)
+(Arc2D
+pts [
+"-130,1263"
+"-415,1064"
+"-76,1064"
+]
+layer 10
+sl 0
+ro 270
+va (VaSet
+vasetType 1
+transparent 1
+)
+xt "-425,943,-76,1304"
+)
+(Line
+sl 0
+ro 270
+xt "-415,1064,-106,1064"
+pts [
+"-415,1064"
+"-106,1064"
+]
+)
+]
+)
+name (TextAssociate
+ps "CenterOffsetStrategy"
+text (Text
+va (VaSet
+)
+xt "-3725,625,-1125,1625"
+st "enable"
+ju 2
+blo "-1125,1425"
+tm "AsmControlSignalNameMgr"
+)
+)
+cond (AsmControlCondition
+ps "CenterOffsetStrategy"
+shape (Rectangle
+va (VaSet
+vasetType 1
+fg "65535,65535,65535"
+lineColor "0,32768,49152"
+)
+xt "1625,525,3825,1725"
+)
+autoResize 1
+cond (MLText
+va (VaSet
+)
+xt "1725,625,3725,1625"
+st "cond"
+tm "AsmConditionMgr"
+)
+)
+)
+defaultActionBox (AsmActionBox
+shape (Rectangle
+va (VaSet
+vasetType 1
+fg "49152,49152,49152"
+lineWidth 1
+)
+xt "0,0,8000,4000"
+)
+actions (MLText
+va (VaSet
+)
+xt "2500,1500,5500,2500"
+st "actions;"
+tm "AsmActions"
+)
+inConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "3500,-500,4500,500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "3500,3500,4500,4500"
+)
+direction 1
+position 1
+)
+)
+defaultCompActionBox (AsmCompositeActionBox
+shape (DoubleRectangle
+va (VaSet
+vasetType 1
+fg "32768,32768,32768"
+lineWidth 1
+)
+xt "0,0,8000,4000"
+)
+name (Text
+va (VaSet
+font "Arial,10,1"
+)
+xt "2800,1400,5200,2600"
+st "ha0"
+blo "2800,2400"
+tm "AsmCompositeActionNameMgr"
+)
+inConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "3500,-500,4500,500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "3500,3500,4500,4500"
+)
+direction 1
+position 1
+)
+childDiagram &0
+)
+defaultCompStateBox (AsmCompositeStateBox
+shape (DoubleBarredRectangle
+va (VaSet
+vasetType 1
+fg "29952,39936,65280"
+lineWidth 1
+)
+xt "0,0,8000,4000"
+)
+name (Text
+va (VaSet
+font "Arial,10,1"
+)
+xt "2800,1400,5200,2600"
+st "hs0"
+blo "2800,2400"
+tm "AsmCompositeActionNameMgr"
+)
+inConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "3500,-500,4500,500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "3500,3500,4500,4500"
+)
+direction 1
+position 1
+)
+childDiagram &0
+)
+defaultStateBox (AsmStateBox
+shape (BarredRectangle
+va (VaSet
+vasetType 1
+fg "0,65535,65535"
+lineColor "0,32768,49152"
+lineWidth 1
+)
+xt "0,0,8000,4000"
+)
+name (Text
+va (VaSet
+font "Arial,10,1"
+)
+xt "3100,1400,4900,2600"
+st "s0"
+blo "3100,2400"
+tm "AsmStateName"
+)
+wait (TextAssociate
+ps "CenterOffsetStrategy"
+text (Text
+va (VaSet
+isHidden 1
+fg "0,0,32768"
+font "Arial,10,1"
+)
+xt "4100,2300,7700,3500"
+st "wait 2"
+blo "4100,3300"
+tm "AsmWaitText"
+)
+)
+encoding (Text
+va (VaSet
+isHidden 1
+font "Arial,10,1"
+)
+xt "4000,3000,4000,3000"
+blo "4000,3000"
+tm "AsmEncodingMgr"
+)
+actions (AsmStateActionsBlock
+ps "StateActionsPlacementStrategy"
+shape (Rectangle
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,65535,65535"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "11900,1900,12100,2100"
+)
+autoResize 1
+tline (Line
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "12000,2000,12000,2000"
+pts [
+"12000,2000"
+"12000,2000"
+]
+)
+bline (Line
+va (VaSet
+vasetType 3
+isHidden 1
+lineColor "0,32768,49152"
+)
+xt "12000,2000,12000,2000"
+pts [
+"12000,2000"
+"12000,2000"
+]
+)
+ttri (Triangle
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "11550,1825,11900,2175"
+)
+btri (Triangle
+ro 270
+va (VaSet
+vasetType 1
+isHidden 1
+fg "0,32768,49152"
+bg "0,0,0"
+lineColor "0,32768,49152"
+)
+xt "11550,1825,11900,2175"
+)
+entryActions (MLText
+va (VaSet
+)
+xt "12000,2000,12000,2000"
+tm "AsmActions"
+)
+inActions (MLText
+va (VaSet
+)
+xt "12000,2000,12000,2000"
+tm "AsmActions"
+)
+exitActions (MLText
+va (VaSet
+)
+xt "12000,2000,12000,2000"
+tm "AsmActions"
+)
+)
+inConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "3500,-500,4500,500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "3500,3500,4500,4500"
+)
+direction 1
+position 1
+)
+)
+defaultDecisionBox (AsmDecisionBox
+shape (Hexagon
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "0,0,8000,2000"
+)
+condition (MLText
+va (VaSet
+)
+xt "2300,500,5700,1500"
+st "condition"
+tm "AsmConditionMgr"
+)
+trueLabel (Text
+va (VaSet
+fg "32768,0,0"
+font "Arial,8,1"
+)
+xt "4593,2000,5493,3000"
+st "T"
+blo "4593,2800"
+)
+falseLabel (Text
+va (VaSet
+fg "32768,0,0"
+font "Arial,8,1"
+)
+xt "8000,-890,8900,110"
+st "F"
+blo "8000,-90"
+)
+inConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "3500,-500,4500,500"
+)
+direction 0
+)
+trueConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "3500,1500,4500,2500"
+)
+direction 1
+position 1
+)
+falseConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 90
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "7500,500,8500,1500"
+)
+direction 1
+position 3
+)
+cond "condition"
+elsif 1
+)
+defaultLink (AsmLink
+shape (CompositeShape
+va (VaSet
+vasetType 1
+fg "0,32896,0"
+)
+optionalChildren [
+(Pentagon
+sl 0
+ro 270
+xt "-375,875,1875,1875"
+)
+(Line
+sl 0
+ro 270
+xt "-875,1375,-375,1375"
+pts [
+"-875,1375"
+"-375,1375"
+]
+)
+]
+)
+name (TextAssociate
+ps "CenterOffsetStrategy"
+text (Text
+va (VaSet
+font "Arial,8,1"
+)
+xt "2375,875,4075,1875"
+st "link"
+blo "2375,1675"
+tm "AsmLinkName"
+)
+)
+inConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 90
+va (VaSet
+vasetType 1
+isHidden 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "-1375,875,-375,1875"
+)
+direction 0
+position 2
+)
+)
+defaultStartPt (AsmStartPoint
+shape (RoundedRectangle
+va (VaSet
+vasetType 1
+fg "49152,0,49152"
+lineWidth 1
+)
+xt "0,0,6000,2000"
+radius 400
+)
+label (Text
+va (VaSet
+fg "65535,65535,65535"
+font "Arial,10,1"
+)
+xt "1550,400,4450,1600"
+st "Start"
+blo "1550,1400"
+)
+outConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "2500,1500,3500,2500"
+)
+direction 1
+position 1
+)
+)
+defaultEndPt (AsmEndPoint
+shape (RoundedRectangle
+va (VaSet
+vasetType 1
+fg "49152,0,49152"
+lineWidth 1
+)
+xt "0,0,6000,2000"
+radius 400
+)
+label (Text
+va (VaSet
+fg "65535,65535,65535"
+font "Arial,10,1"
+)
+xt "1750,400,4250,1600"
+st "End"
+blo "1750,1400"
+)
+inConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "2500,-500,3500,500"
+)
+direction 0
+)
+)
+defaultCaseBox (AsmCaseBox
+shape (Pentagon
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "0,0,28000,4000"
+)
+label (Text
+va (VaSet
+font "Arial,8,1"
+)
+xt "12900,1500,15100,2500"
+st "Case"
+blo "12900,2300"
+)
+expr (TextAssociate
+ps "CenterOffsetStrategy"
+text (MLText
+va (VaSet
+)
+xt "11800,2600,16200,3600"
+st "expression"
+ju 0
+tm "AsmCaseExpressionMgr"
+)
+)
+inConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "13500,-500,14500,500"
+)
+direction 0
+)
+endCase *289 (AsmEndCaseBox
+ps "CenterOffsetStrategy"
+shape (Pentagon
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "10000,24000,18000,28000"
+)
+label (Text
+va (VaSet
+font "Arial,8,1"
+)
+xt "12050,25500,15950,26500"
+st "End Case"
+blo "12050,26300"
+)
+inConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "13500,23500,14500,24500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "13500,27500,14500,28500"
+)
+direction 1
+position 1
+)
+)
+)
+defaultIfDecodeBox (AsmIfDecodeBox
+shape (Pentagon
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "0,0,28000,4000"
+)
+label (Text
+va (VaSet
+font "Arial,8,1"
+)
+xt "13550,1500,14450,2500"
+st "If"
+blo "13550,2300"
+)
+inConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "13500,-500,14500,500"
+)
+direction 0
+)
+endIf *290 (AsmEndIfDecodeBox
+ps "CenterOffsetStrategy"
+shape (Pentagon
+va (VaSet
+vasetType 1
+fg "65535,65535,37120"
+lineWidth 1
+)
+xt "10000,24000,18000,28000"
+)
+label (Text
+va (VaSet
+font "Arial,8,1"
+)
+xt "12700,25500,15300,26500"
+st "End If"
+blo "12700,26300"
+)
+inConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "13500,23500,14500,24500"
+)
+direction 0
+)
+outConnect (AsmFlowConnect
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "13500,27500,14500,28500"
+)
+direction 1
+position 1
+)
+)
+)
+defaultPort (AsmBranchPort
+ps "OnEdgeStrategy"
+shape (Triangle
+ro 180
+va (VaSet
+vasetType 1
+fg "65535,0,0"
+lineColor "65535,0,0"
+fillStyle 12
+)
+xt "0,0,1000,1000"
+)
+name (TextAssociate
+ps "CenterOffsetStrategy"
+text (MLText
+va (VaSet
+font "Arial,8,1"
+)
+xt "1000,500,3800,1500"
+st "value0"
+tm "AsmBranchPortNameMgr"
+)
+)
+)
+defaultFlow (AsmFlow
+shape (OrthoPolyLine
+va (VaSet
+vasetType 3
+)
+pts [
+"0,0"
+"0,0"
+]
+arrow 1
+)
+ss 0
+es 0
+)
+defaultFlowJoin (AsmFlowJoin
+ps "OnConnectorStrategy"
+shape (Circle
+va (VaSet
+vasetType 1
+)
+xt "-150,-150,150,150"
+radius 150
+)
+)
+activeModelName "xmit"
+)

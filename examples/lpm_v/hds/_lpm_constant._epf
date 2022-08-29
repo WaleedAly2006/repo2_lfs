@@ -1,0 +1,3 @@
+DEFAULT_FILE atom lpm_constant.v
+TOP_MARKER atom 1
+DEFAULT_ARCHITECTURE atom lpm_constant

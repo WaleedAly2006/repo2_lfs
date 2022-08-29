@@ -1,0 +1,117 @@
+DESIGN serial_interface
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN serial_interface
+VIEW struct.bd
+NO_GRAPHIC 9
+DESIGN serial_interface
+VIEW interface
+GRAPHIC 1,0 9 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 289,0 10 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 0,0 14 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 0,0 15 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 0,0 16 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 0,0 17 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 0,0 18 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 0,0 19 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 0,0 20 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 0,0 21 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 0,0 22 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 0,0 23 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 0,0 24 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 0,0 25 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 0,0 26 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 0,0 27 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 0,0 28 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 291,0 31 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 1,0 33 0 
+DESIGN serial_interface
+VIEW struct.bd
+NO_GRAPHIC 52
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 1,0 53 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 361,0 57 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 351,0 69 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 411,0 87 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 934,0 90 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 934,0 90 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 928,0 92 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 411,0 94 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 939,0 103 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 971,0 104 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 955,0 106 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 983,0 107 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 876,0 114 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 725,0 117 0 
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 495,0 120 0 
+DESIGN serial_interface
+VIEW struct.bd
+NO_GRAPHIC 133
+DESIGN serial_interface
+VIEW struct.bd
+GRAPHIC 293,0 135 0 

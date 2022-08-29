@@ -1,0 +1,1271 @@
+DocumentHdrVersion "1.1"
+Header (DocumentHdr
+version 2
+dialect 2
+dmPackageRefs [
+(DmPackageRef
+library "ieee"
+unitName "std_logic_1164"
+)
+(DmPackageRef
+library "ieee"
+unitName "std_logic_arith"
+)
+]
+instances [
+(Instance
+name "U_0"
+duLibraryName "UART"
+duName "control_operation"
+elements [
+]
+mwi 0
+uid 65,0
+)
+]
+embeddedInstances [
+(EmbeddedInstance
+name "data_out_mux"
+number "10"
+)
+]
+libraryRefs [
+"ieee"
+]
+)
+version "32.1"
+newIbd 1
+appVersion "2004.1"
+noEmbeddedEditors 1
+model (IbdDiag
+VExpander (VariableExpander
+vvMap [
+(vvPair
+variable "HDLDir"
+value "<TBD>"
+)
+(vvPair
+variable "HDSDir"
+value "<TBD>"
+)
+(vvPair
+variable "SideDataDesignDir"
+value "<TBD>"
+)
+(vvPair
+variable "SideDataUserDir"
+value "<TBD>"
+)
+(vvPair
+variable "SourceDir"
+value "<TBD>"
+)
+(vvPair
+variable "appl"
+value "HDL Designer"
+)
+(vvPair
+variable "arch_name"
+value "intconx"
+)
+(vvPair
+variable "config"
+value "%(unit)_%(view)_config"
+)
+(vvPair
+variable "d"
+value "<TBD>"
+)
+(vvPair
+variable "d_logical"
+value "<TBD>"
+)
+(vvPair
+variable "date"
+value "10/03/2019"
+)
+(vvPair
+variable "day"
+value "Sun"
+)
+(vvPair
+variable "day_long"
+value "Sunday"
+)
+(vvPair
+variable "dd"
+value "10"
+)
+(vvPair
+variable "entity_name"
+value "cpu_interface"
+)
+(vvPair
+variable "ext"
+value "<TBD>"
+)
+(vvPair
+variable "f"
+value "intconx.ibd"
+)
+(vvPair
+variable "f_logical"
+value "intconx.ibd"
+)
+(vvPair
+variable "f_noext"
+value "intconx"
+)
+(vvPair
+variable "graphical_source_author"
+value "JSmith"
+)
+(vvPair
+variable "graphical_source_date"
+value "10/03/2019"
+)
+(vvPair
+variable "graphical_source_group"
+value "UNKNOWN"
+)
+(vvPair
+variable "graphical_source_time"
+value "11:24:51"
+)
+(vvPair
+variable "group"
+value "UNKNOWN"
+)
+(vvPair
+variable "host"
+value "JSmith"
+)
+(vvPair
+variable "language"
+value "VHDL"
+)
+(vvPair
+variable "library"
+value "uart"
+)
+(vvPair
+variable "mm"
+value "03"
+)
+(vvPair
+variable "module_name"
+value "cpu_interface"
+)
+(vvPair
+variable "month"
+value "Mar"
+)
+(vvPair
+variable "month_long"
+value "March"
+)
+(vvPair
+variable "p"
+value "<TBD>"
+)
+(vvPair
+variable "p_logical"
+value "<TBD>"
+)
+(vvPair
+variable "package_name"
+value "<Undefined Variable>"
+)
+(vvPair
+variable "project_name"
+value "hds"
+)
+(vvPair
+variable "series"
+value "HDL Designer Series"
+)
+(vvPair
+variable "task_DesignCompilerPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_LeonardoPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_ModelSimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_NC-SimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_PrecisionRTLPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_QuestaSimPath"
+value "<TBD>"
+)
+(vvPair
+variable "task_VCSPath"
+value "<TBD>"
+)
+(vvPair
+variable "this_ext"
+value "ibd"
+)
+(vvPair
+variable "this_file"
+value "intconx"
+)
+(vvPair
+variable "this_file_logical"
+value "intconx"
+)
+(vvPair
+variable "time"
+value "11:24:51"
+)
+(vvPair
+variable "unit"
+value "cpu_interface"
+)
+(vvPair
+variable "user"
+value "JSmith"
+)
+(vvPair
+variable "version"
+value "2004.1"
+)
+(vvPair
+variable "view"
+value "intconx"
+)
+(vvPair
+variable "year"
+value "2019"
+)
+(vvPair
+variable "yy"
+value "19"
+)
+]
+)
+LanguageMgr "Vhdl93LangMgr"
+uid 1,0
+bg "65535,65535,65535"
+grid (Grid
+origin "0,0"
+isVisible 1
+isActive 1
+xSpacing 1000
+xySpacing 1000
+xShown 1
+yShown 1
+color "65535,0,0"
+)
+packageList *1 (PackageList
+uid 2,0
+stg "VerticalLayoutStrategy"
+textVec [
+*2 (Text
+uid 3,0
+va (VaSet
+font "arial,8,1"
+)
+xt "0,0,5400,1000"
+st "Package List"
+blo "0,800"
+)
+*3 (MLText
+uid 4,0
+va (VaSet
+)
+xt "0,1000,10900,4000"
+st "LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_arith.all;"
+tm "PackageList"
+)
+]
+)
+compDirBlock (MlTextGroup
+uid 5,0
+stg "VerticalLayoutStrategy"
+textVec [
+*4 (Text
+uid 6,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "20000,0,28100,1000"
+st "Compiler Directives"
+blo "20000,800"
+)
+*5 (Text
+uid 7,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "20000,1000,29600,2000"
+st "Pre-module directives:"
+blo "20000,1800"
+)
+*6 (MLText
+uid 8,0
+va (VaSet
+)
+xt "20000,2000,27500,4000"
+st "`resetall
+`timescale 1ns/10ps"
+tm "BdCompilerDirectivesTextMgr"
+)
+*7 (Text
+uid 9,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "20000,4000,30100,5000"
+st "Post-module directives:"
+blo "20000,4800"
+)
+*8 (MLText
+uid 10,0
+va (VaSet
+)
+xt "20000,0,20000,0"
+tm "BdCompilerDirectivesTextMgr"
+)
+*9 (Text
+uid 11,0
+va (VaSet
+font "Arial,8,1"
+)
+xt "20000,5000,29900,6000"
+st "End-module directives:"
+blo "20000,5800"
+)
+*10 (MLText
+uid 12,0
+va (VaSet
+)
+xt "20000,6000,20000,6000"
+tm "BdCompilerDirectivesTextMgr"
+)
+]
+associable 1
+)
+windowSize "263,110,1285,800"
+viewArea "0,0,0,0"
+cachedDiagramExtent "0,0,0,0"
+pageBreakOrigin "0,0"
+logical (IbdLogical
+uid 13,0
+colContainer (IbdColContainer
+uid 14,0
+optionalChildren [
+*11 (IbdInterface
+uid 15,0
+name "cpu_interface"
+on 6
+fa [
+(IbdNFA
+uid 73,0
+io "I"
+c *12 (IbdNet
+d (Decl
+n "clr_int_en"
+t "std_logic"
+o 3
+)
+uid 43,0
+on 11
+nodes [
+&11
+*13 (IbdHdsComponent
+archFileType "UNKNOWN"
+p [
+*14 (IbdCptPort
+uid 94,0
+p (LogicalPort
+m 1
+decl (Decl
+n "clear_flags"
+t "std_logic"
+o 7
+)
+)
+)
+*15 (IbdCptPort
+uid 95,0
+p (LogicalPort
+decl (Decl
+n "clk"
+t "std_logic"
+o 1
+)
+)
+)
+*16 (IbdCptPort
+uid 96,0
+p (LogicalPort
+decl (Decl
+n "clr_int_en"
+t "std_logic"
+o 2
+)
+)
+)
+*17 (IbdCptPort
+uid 97,0
+p (LogicalPort
+decl (Decl
+n "cs"
+t "std_logic"
+o 3
+)
+)
+)
+*18 (IbdCptPort
+uid 98,0
+p (LogicalPort
+m 1
+decl (Decl
+n "enable_write"
+t "std_logic"
+o 8
+)
+)
+)
+*19 (IbdCptPort
+uid 99,0
+p (LogicalPort
+decl (Decl
+n "nrw"
+t "std_logic"
+o 4
+)
+)
+)
+*20 (IbdCptPort
+uid 100,0
+p (LogicalPort
+decl (Decl
+n "rst"
+t "std_logic"
+o 5
+)
+)
+)
+*21 (IbdCptPort
+uid 101,0
+p (LogicalPort
+m 1
+decl (Decl
+n "start_xmit"
+t "std_logic"
+o 9
+)
+)
+)
+*22 (IbdCptPort
+uid 102,0
+p (LogicalPort
+decl (Decl
+n "xmitdt_en"
+t "std_logic"
+o 6
+)
+)
+)
+]
+inst "U_0"
+lib "UART"
+ele [
+]
+uid 65,0
+name "control_operation"
+on 9
+fa [
+(IbdCFA
+l "clr_int_en"
+p &16
+uid 85,0
+c &12
+)
+(IbdCFA
+l "clk"
+p &15
+uid 87,0
+c *23 (IbdNet
+d (Decl
+n "clk"
+t "std_logic"
+eolc "10 MHz clock"
+o 1
+)
+uid 39,0
+on 9
+nodes [
+&11
+&13
+]
+)
+)
+(IbdCFA
+l "enable_write"
+p &18
+uid 88,0
+c *24 (IbdNet
+d (Decl
+n "enable_write"
+t "std_logic"
+o 12
+)
+uid 61,0
+on 20
+nodes [
+&11
+&13
+]
+)
+)
+(IbdCFA
+l "rst"
+p &20
+uid 93,0
+c *25 (IbdNet
+d (Decl
+n "rst"
+t "std_logic"
+eolc "reset(0)"
+o 7
+)
+uid 51,0
+on 15
+nodes [
+&11
+&13
+]
+)
+)
+(IbdCFA
+l "clear_flags"
+p &14
+uid 91,0
+c *26 (IbdNet
+d (Decl
+n "clear_flags"
+t "std_logic"
+o 10
+)
+uid 57,0
+on 18
+nodes [
+&11
+&13
+]
+)
+)
+(IbdCFA
+l "xmitdt_en"
+p &22
+uid 90,0
+c *27 (IbdNet
+d (Decl
+n "xmitdt_en"
+t "std_logic"
+o 9
+)
+uid 55,0
+on 17
+nodes [
+&11
+&13
+]
+)
+)
+(IbdCFA
+l "start_xmit"
+p &21
+uid 89,0
+c *28 (IbdNet
+d (Decl
+n "start_xmit"
+t "std_logic"
+o 13
+)
+uid 63,0
+on 21
+nodes [
+&11
+&13
+]
+)
+)
+(IbdCFA
+l "nrw"
+p &19
+uid 92,0
+c *29 (IbdNet
+d (Decl
+n "nrw"
+t "std_logic"
+eolc "r(0), w(1)"
+o 6
+)
+uid 49,0
+on 14
+nodes [
+&11
+&13
+]
+)
+)
+(IbdCFA
+l "cs"
+p &17
+uid 86,0
+c *30 (IbdNet
+d (Decl
+n "cs"
+t "std_logic"
+eolc "chip select"
+o 4
+)
+uid 45,0
+on 12
+nodes [
+&11
+&13
+]
+)
+)
+]
+dec [
+]
+ucp [
+]
+)
+]
+)
+)
+(IbdNFA
+uid 75,0
+io "I"
+c &23
+)
+(IbdNFA
+uid 76,0
+io "O"
+c &24
+)
+(IbdNFA
+uid 84,0
+io "I"
+c &25
+)
+(IbdNFA
+uid 80,0
+io "O"
+c &26
+)
+(IbdNFA
+uid 79,0
+io "I"
+c &27
+)
+(IbdNFA
+uid 77,0
+io "O"
+c &28
+)
+(IbdNFA
+uid 83,0
+io "I"
+c &29
+)
+(IbdNFA
+uid 72,0
+io "I"
+c *31 (IbdNet
+d (Decl
+n "clk_div_en"
+t "std_logic"
+o 2
+)
+uid 41,0
+on 10
+nodes [
+&11
+*32 (IbdEB
+uid 69,0
+optionalChildren [
+*33 (IbdEmbeddedText
+theText "datout <= div_data WHEN clk_div_en = '1' ELSE
+                   ser_if_data;"
+uid 70,0
+)
+]
+name "data_out_mux"
+on 10
+fa [
+(IbdNFA
+uid 103,0
+io "I"
+c &31
+)
+(IbdNFA
+uid 104,0
+io "I"
+c *34 (IbdNet
+d (Decl
+n "ser_if_data"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+o 8
+)
+uid 53,0
+on 16
+nodes [
+&11
+&32
+]
+)
+)
+(IbdNFA
+uid 106,0
+io "I"
+c *35 (IbdNet
+d (Decl
+n "div_data"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+o 5
+)
+uid 47,0
+on 13
+nodes [
+&11
+&32
+]
+)
+)
+(IbdNFA
+uid 105,0
+io "O"
+c *36 (IbdNet
+d (Decl
+n "datout"
+t "std_logic_vector"
+b "(7 DOWNTO 0)"
+eolc "data to cpu"
+o 11
+)
+uid 59,0
+on 19
+nodes [
+&11
+&32
+]
+)
+)
+]
+dec [
+]
+)
+]
+)
+)
+(IbdNFA
+uid 78,0
+io "I"
+c &34
+)
+(IbdNFA
+uid 82,0
+io "I"
+c &35
+)
+(IbdNFA
+uid 74,0
+io "I"
+c &30
+)
+(IbdNFA
+uid 81,0
+io "O"
+c &36
+)
+]
+dec [
+]
+)
+&13
+&32
+]
+)
+rowContainer (IbdRowContainer
+uid 16,0
+optionalChildren [
+&23
+&31
+&12
+&30
+&35
+&29
+&25
+&34
+&27
+&26
+&36
+&24
+&28
+]
+)
+)
+physical (MPhysicalIbd
+activeIct &0
+mainIct (MIct
+name "All"
+mcolContainer (MIctColContainer
+optionalChildren [
+*37 (MRefCol
+p 0
+uid 20,0
+d 20
+)
+*38 (MNameCol
+p 1
+uid 21,0
+d 114
+)
+*39 (MTypeCol
+p 2
+uid 22,0
+d 79
+)
+*40 (MBoundsCol
+p 3
+uid 23,0
+d 76
+)
+*41 (MFilterCol
+p 4
+hidden 1
+uid 24,0
+d 120
+)
+*42 (MFixedCol
+p 5
+hidden 1
+uid 25,0
+d 20
+)
+*43 (MInterfaceCol
+p 6
+uid 26,0
+d 35
+ibdInterface &11
+)
+*44 (MValueCol
+p 11
+uid 27,0
+)
+*45 (MEolCol
+p 12
+uid 28,0
+d 57
+)
+*46 (MHdsCompInstCol
+p 7
+uid 66,0
+optionalChildren [
+*47 (MCompPortCol
+p 8
+hidden 1
+uid 67,0
+d 62
+)
+*48 (MCompActualCol
+p 9
+hidden 1
+uid 68,0
+d 35
+)
+]
+d 35
+comp &13
+)
+*49 (MEBCol
+p 10
+uid 71,0
+d 35
+eb &32
+)
+]
+)
+mrowContainer (MIctRowContainer
+optionalChildren [
+*50 (MRefRow
+p 0
+uid 30,0
+)
+*51 (MNameRow
+p 1
+uid 31,0
+d 86
+)
+*52 (MLibRow
+p 2
+hidden 1
+uid 32,0
+)
+*53 (MInstanceRefRow
+p 3
+uid 33,0
+)
+*54 (MPortMapLabelRow
+p 4
+uid 34,0
+)
+*55 (MFilterRow
+p 5
+hidden 1
+uid 35,0
+d 20
+)
+*56 (MUcPortGroupRow
+p 6
+hidden 1
+uid 36,0
+)
+*57 (MFixedRow
+p 7
+hidden 1
+uid 37,0
+)
+*58 (MEmptyRow
+p 22
+uid 38,0
+)
+*59 (MNetRow
+p 9
+uid 40,0
+net &23
+)
+*60 (MNetRow
+p 10
+uid 42,0
+net &31
+)
+*61 (MNetRow
+p 11
+uid 44,0
+net &12
+)
+*62 (MNetRow
+p 12
+uid 46,0
+net &30
+)
+*63 (MNetRow
+p 13
+uid 48,0
+net &35
+)
+*64 (MNetRow
+p 14
+uid 50,0
+net &29
+)
+*65 (MNetRow
+p 15
+uid 52,0
+net &25
+)
+*66 (MNetRow
+p 16
+uid 54,0
+net &34
+)
+*67 (MNetRow
+p 17
+uid 56,0
+net &27
+)
+*68 (MNetRow
+p 18
+uid 58,0
+net &26
+)
+*69 (MNetRow
+p 19
+uid 60,0
+net &36
+)
+*70 (MNetRow
+p 20
+uid 62,0
+net &24
+)
+*71 (MNetRow
+p 21
+uid 64,0
+net &28
+)
+*72 (MReqRow
+p 8
+hidden 1
+uid 140,0
+)
+]
+)
+vaOverrides [
+]
+)
+editBoundsShortForm 0
+displayLibraryRow 0
+displayCompleteFrameTitle 0
+blkMVa (MVa
+cellColor "39936,56832,65280"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+hdsCompMva (MVa
+cellColor "45055,65535,30000"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+mwCompMva (MVa
+cellColor "0,65535,65535"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+ipCompMva (MVa
+cellColor "45055,65535,30000"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+embeddedBlkMva (MVa
+cellColor "65535,65535,37120"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+expressionRowMva (MVa
+alignment 0
+cellColor "65280,65280,46080"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+netSliceMva (MVa
+alignment 0
+cellColor "39936,56832,65280"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+bundleMva (MVa
+alignment 0
+cellColor "65280,65280,46080"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+propColMva (MVa
+cellColor "0,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+groupColMva (MVa
+alignment 0
+cellColor "62965,57054,46003"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+interfaceColMva (MVa
+cellColor "59904,39936,65280"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+frameColMva (MVa
+alignment 0
+cellColor "0,0,65535"
+fontColor "65535,65535,65535"
+font "Tahoma,10,1"
+)
+propRowMva (MVa
+alignment 0
+cellColor "0,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+groupRowMva (MVa
+alignment 0
+cellColor "62965,57054,46003"
+fontColor "0,0,0"
+font "Tahoma,10,1"
+)
+netRowMva (MVa
+cellColor "65535,65535,65535"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+uid 17,0
+)
+lastUid 196,0
+defaultManualInstanceName "I0"
+genericsCommonDM (CommonDM
+ldm (LogicalDM
+emptyRow *73 (LEmptyRow
+)
+uid 114,0
+optionalChildren [
+*74 (RefLabelRowHdr
+)
+*75 (TitleRowHdr
+)
+*76 (FilterRowHdr
+)
+*77 (RefLabelColHdr
+tm "RefLabelColHdrMgr"
+)
+*78 (RowExpandColHdr
+tm "RowExpandColHdrMgr"
+)
+*79 (GroupColHdr
+tm "GroupColHdrMgr"
+)
+*80 (NameColHdr
+tm "GenericNameColHdrMgr"
+)
+*81 (TypeColHdr
+tm "GenericTypeColHdrMgr"
+)
+*82 (InitColHdr
+tm "GenericValueColHdrMgr"
+)
+*83 (PragmaColHdr
+tm "GenericPragmaColHdrMgr"
+)
+*84 (EolColHdr
+tm "GenericEolColHdrMgr"
+)
+]
+)
+pdm (PhysicalDM
+uid 126,0
+optionalChildren [
+*85 (Sheet
+sheetRow (SheetRow
+headerVa (MVa
+cellColor "49152,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+cellVa (MVa
+cellColor "65535,65535,65535"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+groupVa (MVa
+cellColor "39936,56832,65280"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+)
+emptyMRCItem *86 (MRCItem
+litem &73
+pos 0
+dimension 20
+)
+uid 128,0
+optionalChildren [
+*87 (MRCItem
+litem &74
+pos 0
+dimension 20
+uid 129,0
+)
+*88 (MRCItem
+litem &75
+pos 1
+dimension 23
+uid 130,0
+)
+*89 (MRCItem
+litem &76
+pos 2
+hidden 1
+dimension 20
+uid 131,0
+)
+]
+)
+sheetCol (SheetCol
+propVa (MVa
+cellColor "0,49152,49152"
+fontColor "0,0,0"
+font "Tahoma,10,0"
+textAngle 90
+)
+uid 132,0
+optionalChildren [
+*90 (MRCItem
+litem &77
+pos 0
+dimension 20
+uid 133,0
+)
+*91 (MRCItem
+litem &79
+pos 1
+dimension 50
+uid 134,0
+)
+*92 (MRCItem
+litem &80
+pos 2
+dimension 100
+uid 135,0
+)
+*93 (MRCItem
+litem &81
+pos 3
+dimension 100
+uid 136,0
+)
+*94 (MRCItem
+litem &82
+pos 4
+dimension 50
+uid 137,0
+)
+*95 (MRCItem
+litem &83
+pos 5
+dimension 50
+uid 138,0
+)
+*96 (MRCItem
+litem &84
+pos 6
+dimension 80
+uid 139,0
+)
+]
+)
+fixedCol 3
+fixedRow 2
+name "Ports"
+uid 127,0
+vaOverrides [
+]
+)
+]
+)
+uid 113,0
+type 1
+)
+activeModelName "IbdDiag"
+)

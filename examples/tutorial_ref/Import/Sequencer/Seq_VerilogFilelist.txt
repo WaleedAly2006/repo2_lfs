@@ -1,0 +1,5 @@
+# File list for importing the Verilog Fibonacci Sequencer design:
+#
+Seq_TestBench.v
+Seq_Tester.v
+Seq_Generator.v

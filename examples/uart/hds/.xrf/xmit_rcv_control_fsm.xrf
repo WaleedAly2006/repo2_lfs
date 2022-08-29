@@ -1,0 +1,861 @@
+DESIGN xmit_rcv_control
+VIEW interface
+NO_GRAPHIC 0
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 550,0 8 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1545,0 14 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1550,0 15 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1515,0 16 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1520,0 17 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1530,0 18 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1535,0 19 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1480,0 20 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1485,0 21 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1490,0 22 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1495,0 23 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1500,0 24 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1505,0 25 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1510,0 26 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1525,0 27 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1540,0 28 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1,0 31 0 
+DESIGN xmit_rcv_control
+VIEW interface
+GRAPHIC 1,0 32 0 
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 3,0 44 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 47
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 6,0 51 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 52
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 2,0 91 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 92
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 2,0 95 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 96
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 897,0 97 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 99
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 887,0 104 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 105
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 2,0 113 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 28,0 114 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 1087,0 115 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 81,0 116 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 82,0 117 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 118
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 52,0 119 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 131,0 120 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 132,0 121 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 122
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 2,0 125 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 126
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 2,0 127 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 128
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 2,0 130 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 131
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 2,0 138 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 28,0 139 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 81,0 140 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 34,0 141 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 142
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 28,0 146 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 147
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 34,0 151 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 91,0 152 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 28,0 153 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 154
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 101,0 157 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 40,0 158 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 159
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 34,0 163 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 164
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 40,0 168 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 111,0 169 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 46,0 170 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 171
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 40,0 175 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 176
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 46,0 180 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 121,0 181 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 52,0 182 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 183
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 46,0 187 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 188
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 52,0 192 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 131,0 193 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 46,0 194 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 195
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 141,0 198 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 58,0 199 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 200
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 52,0 204 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 205
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 58,0 209 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 151,0 210 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 64,0 211 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 212
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 58,0 216 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 217
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 64,0 221 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 161,0 222 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 70,0 223 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 224
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 64,0 228 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 229
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 70,0 233 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 28,0 234 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 235
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 930,0 238 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 240
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 2,0 244 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 245
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 2,0 247 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 248
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 23,0 256 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 260
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 2,0 262 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 28,0 263 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 81,0 264 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 82,0 265 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 266
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 34,0 267 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 1096,0 268 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 91,0 269 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 92,0 270 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 271
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 40,0 272 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 1105,0 273 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 46,0 275 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 1114,0 276 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 52,0 278 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 1123,0 279 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 131,0 281 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 132,0 282 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 141,0 283 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 142,0 284 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 285
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 58,0 286 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 1132,0 287 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 64,0 289 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 1141,0 290 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 70,0 292 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 1150,0 293 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 296
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 2,0 298 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 300
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 179,0 302 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 303
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 179,0 306 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 307
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 961,0 308 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 310
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 951,0 315 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 316
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 23,0 318 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 319
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 179,0 321 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 211,0 322 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 1159,0 323 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 217,0 324 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 1168,0 325 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 223,0 328 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 1177,0 329 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 298,0 330 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 299,0 331 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 332
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 229,0 333 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 1186,0 334 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 247,0 335 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 1213,0 336 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 338
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 179,0 340 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 341
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 179,0 342 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 343
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 179,0 345 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 346
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 179,0 353 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 211,0 354 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 348,0 355 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 217,0 356 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 357
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 211,0 358 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 359
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 217,0 360 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 288,0 361 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 223,0 362 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 363
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 217,0 364 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 365
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 223,0 366 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 298,0 367 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 229,0 368 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 369
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 223,0 370 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 371
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 229,0 372 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 308,0 373 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 223,0 374 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 338,0 375 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 235,0 376 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 377
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 229,0 378 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 379
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 235,0 380 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 328,0 381 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 241,0 382 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 383
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 235,0 384 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 385
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 241,0 386 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 247,0 387 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 211,0 389 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 994,0 390 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 392
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 179,0 393 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 394
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 179,0 396 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 397
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 23,0 402 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 403
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 179,0 405 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 241,0 406 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 1204,0 407 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 408
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 179,0 410 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 412
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+GRAPHIC 23,0 414 0
+LIBRARY UART
+DESIGN xmit_rcv_control
+VIEW fsm.sm
+NO_GRAPHIC 419

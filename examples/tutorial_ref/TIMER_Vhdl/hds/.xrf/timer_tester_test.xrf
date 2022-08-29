@@ -1,0 +1,135 @@
+DESIGN @timer_tester
+VIEW symbol.sb
+NO_GRAPHIC 0
+DESIGN @timer_tester
+VIEW symbol.sb
+GRAPHIC 50,0 8 0 
+DESIGN @timer_tester
+VIEW symbol.sb
+GRAPHIC 52,0 14 0 
+DESIGN @timer_tester
+VIEW symbol.sb
+GRAPHIC 67,0 15 0 
+DESIGN @timer_tester
+VIEW symbol.sb
+GRAPHIC 72,0 16 0 
+DESIGN @timer_tester
+VIEW symbol.sb
+GRAPHIC 57,0 17 0 
+DESIGN @timer_tester
+VIEW symbol.sb
+GRAPHIC 62,0 18 0 
+DESIGN @timer_tester
+VIEW symbol.sb
+GRAPHIC 77,0 19 0 
+DESIGN @timer_tester
+VIEW symbol.sb
+GRAPHIC 82,0 20 0 
+DESIGN @timer_tester
+VIEW symbol.sb
+GRAPHIC 87,0 21 0 
+DESIGN @timer_tester
+VIEW symbol.sb
+GRAPHIC 1,0 24 0 
+DESIGN @timer_tester
+VIEW symbol.sb
+GRAPHIC 1,0 25 0 
+DESIGN @timer_tester
+VIEW test.fc
+NO_GRAPHIC 28
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 17,0 37 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 3,0 43 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 26,0 58 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 27,0 58 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 12,0 59 0 
+DESIGN @timer_tester
+VIEW test.fc
+NO_GRAPHIC 61
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 9,0 61 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 32,0 69 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 56,0 77 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 71,0 78 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 96,0 87 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 557,0 101 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 581,0 103 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 571,0 107 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 591,0 111 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 601,0 113 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 611,0 114 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 631,0 115 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 655,0 116 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 645,0 120 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 280,0 125 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 292,0 133 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 336,0 136 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 337,0 136 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 322,0 137 0 
+DESIGN @timer_tester
+VIEW test.fc
+NO_GRAPHIC 139
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 319,0 139 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 345,0 140 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 357,0 141 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 369,0 142 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 381,0 143 0 
+DESIGN @timer_tester
+VIEW test.fc
+GRAPHIC 6,0 148 0 

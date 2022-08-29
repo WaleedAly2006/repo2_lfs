@@ -1,0 +1,23 @@
+[hds_settings]
+version = 3
+default_library = UART_V
+project_description = UART (VERILOG)\nThis is a Verilog design which describes the UART\nuniversal asynchronous receiver transmitter design with a test bench controlled\nby a flow chart which can be used to verify the design.\nThe UART_V library contains a graphical version of the design described by\nVerilog views using block diagrams, IBD views, state machines, truth tables,\nflow charts and HDL text views.
+
+[hds]
+UART_V      = $HDS_PROJECT_DIR/uart_v/hds
+ 
+[hdl]
+UART_V      = $HDS_PROJECT_DIR/uart_v/hdl
+ 
+[ModelSim]
+UART_V      = $HDS_PROJECT_DIR/uart_v/modelsim
+
+[QuestaSim]
+UART_V      = $HDS_PROJECT_DIR/uart_v/questasim
+
+[Leonardo]
+UART_V      = $HDS_PROJECT_DIR/uart_v/ls_work
+
+[shared]
+others      = $HDS_TEAM_HOME/shared.hdp
+

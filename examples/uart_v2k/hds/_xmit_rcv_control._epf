@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom xmit_rcv_control
+DEFAULT_FILE atom xmit_rcv_control/fsm.sm

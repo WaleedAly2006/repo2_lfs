@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom cpu_interface
+DEFAULT_FILE atom cpu_interface/struct.ibd

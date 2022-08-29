@@ -1,0 +1,2 @@
+DEFAULT_FILE atom lpm_fifo_dc_dffpipe.v
+DEFAULT_ARCHITECTURE atom lpm_fifo_dc_dffpipe

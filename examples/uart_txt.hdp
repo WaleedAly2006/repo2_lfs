@@ -1,0 +1,23 @@
+[hds_settings]
+version = 3
+default_library = UART_TXT
+project_description = UART (MIXED)\nThis is a mixed language design which describes the UART\nuniversal asynchronous receiver transmitter design with  controlled by a flow chart.\nThe design contains a HDL text version of the design described by a mixture\nof VHDL and Verilog views and can be edited using any of the HDL Designer Series tools.
+
+[hds]
+UART_TXT    = $HDS_PROJECT_DIR/uart_txt/hds
+ 
+[hdl]
+UART_TXT    = $HDS_PROJECT_DIR/uart_txt/hdl
+ 
+[ModelSim]
+UART_TXT    = $HDS_PROJECT_DIR/uart_txt/modelsim
+
+[QuestaSim]
+UART_TXT    = $HDS_PROJECT_DIR/uart_txt/questasim
+
+[Leonardo]
+UART_TXT    = $HDS_PROJECT_DIR/uart_txt/ls_work
+ 
+[shared]
+others      = $HDS_TEAM_HOME/shared.hdp
+

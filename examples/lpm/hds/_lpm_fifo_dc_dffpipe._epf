@@ -1,0 +1,2 @@
+DEFAULT_FILE atom lpm_fifo_dc_dffpipe_lpm_syn.vhd
+DEFAULT_ARCHITECTURE atom lpm_syn

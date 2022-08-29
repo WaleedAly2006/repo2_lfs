@@ -1,0 +1,23 @@
+[hds_settings]
+version = 3
+default_library = Sequencer_vlg
+project_description = SEQUENCER (VERILOG)\nThis is a Verilog design containing a version of the Fibonacci sequencer\ndesign which is shown in many of illustrations used in this manual.
+
+[hds]
+Sequencer_vlg = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vlg/hds
+
+[hdl]
+Sequencer_vlg = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vlg/hdl
+ 
+[ModelSim]
+Sequencer_vlg = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vlg/modelsim
+
+[QuestaSim]
+Sequencer_vlg = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vlg/questasim
+
+[Leonardo]
+Sequencer_vlg = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vlg/ls_work
+
+[shared]
+others      = $HDS_TEAM_HOME/shared.hdp
+

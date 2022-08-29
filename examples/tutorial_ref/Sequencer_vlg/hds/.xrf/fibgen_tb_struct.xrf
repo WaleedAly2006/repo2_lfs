@@ -1,0 +1,42 @@
+DESIGN fibgen_tb
+VIEW struct.bd
+NO_GRAPHIC 0
+DESIGN fibgen_tb
+VIEW struct.bd
+NO_GRAPHIC 9
+DESIGN fibgen_tb
+VIEW symbol.sb
+GRAPHIC 1,0 9 0 
+DESIGN fibgen_tb
+VIEW struct.bd
+GRAPHIC 366,0 10 0 
+DESIGN fibgen_tb
+VIEW struct.bd
+GRAPHIC 368,0 14 0 
+DESIGN fibgen_tb
+VIEW symbol.sb
+GRAPHIC 1,0 16 0 
+DESIGN fibgen_tb
+VIEW struct.bd
+NO_GRAPHIC 25
+DESIGN fibgen_tb
+VIEW struct.bd
+GRAPHIC 320,0 28 0 
+DESIGN fibgen_tb
+VIEW struct.bd
+GRAPHIC 77,0 29 0 
+DESIGN fibgen_tb
+VIEW struct.bd
+GRAPHIC 87,0 30 0 
+DESIGN fibgen_tb
+VIEW struct.bd
+GRAPHIC 40,0 31 0 
+DESIGN fibgen_tb
+VIEW struct.bd
+GRAPHIC 28,0 34 0 
+DESIGN fibgen_tb
+VIEW struct.bd
+NO_GRAPHIC 40
+DESIGN fibgen_tb
+VIEW struct.bd
+GRAPHIC 370,0 42 0 

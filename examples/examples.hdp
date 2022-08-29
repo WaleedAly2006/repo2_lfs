@@ -1,0 +1,75 @@
+[hds_settings]
+version = 3
+default_library = SCRATCH_LIB
+project_description = The HDS examples project
+library_search_path = mtiAvm
+
+[hds]
+Ethernet = $HDS_PROJECT_DIR/ethernet/hds
+SCRATCH_LIB = $HDS_PROJECT_DIR/hds_scratch/scratch_lib/hds
+Sequencer_vhd = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vhd/hds
+Sequencer_vlg = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vlg/hds
+TIMER_Vhdl  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vhdl/hds
+TIMER_Vlog  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vlog/hds
+UART_TXT    = $HDS_PROJECT_DIR/uart_txt/hds
+UART        = $HDS_PROJECT_DIR/uart/hds
+UART_V      = $HDS_PROJECT_DIR/uart_v/hds
+UART_V2K      = $HDS_PROJECT_DIR/uart_v2k/hds
+ 
+[hdl]
+Ethernet = $HDS_PROJECT_DIR/ethernet/hdl
+SCRATCH_LIB = $HDS_PROJECT_DIR/hds_scratch/scratch_lib/hdl
+Sequencer_vhd = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vhd/hdl
+Sequencer_vlg = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vlg/hdl
+TIMER_Vhdl  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vhdl/hdl
+TIMER_Vlog  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vlog/hdl
+UART_TXT    = $HDS_PROJECT_DIR/uart_txt/hdl
+UART        = $HDS_PROJECT_DIR/uart/hdl
+UART_V      = $HDS_PROJECT_DIR/uart_v/hdl
+UART_V2K      = $HDS_PROJECT_DIR/uart_v2k/hdl
+ 
+[ModelSim]
+Ethernet = $HDS_PROJECT_DIR/ethernet/modelsim
+SCRATCH_LIB = $HDS_PROJECT_DIR/hds_scratch/scratch_lib/modelsim
+Sequencer_vhd = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vhd/modelsim
+Sequencer_vlg = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vlg/modelsim
+TIMER_Vhdl  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vhdl/modelsim
+TIMER_Vlog  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vlog/modelsim
+UART_TXT    = $HDS_PROJECT_DIR/uart_txt/modelsim
+UART        = $HDS_PROJECT_DIR/uart/modelsim
+UART_V      = $HDS_PROJECT_DIR/uart_v/modelsim
+UART_V2K      = $HDS_PROJECT_DIR/uart_v2k/modelsim
+
+[QuestaSim]
+Ethernet = $HDS_PROJECT_DIR/ethernet/questasim
+SCRATCH_LIB = $HDS_PROJECT_DIR/hds_scratch/scratch_lib/questasim
+Sequencer_vhd = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vhd/questasim
+Sequencer_vlg = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vlg/questasim
+TIMER_Vhdl  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vhdl/questasim
+TIMER_Vlog  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vlog/questasim
+UART_TXT    = $HDS_PROJECT_DIR/uart_txt/questasim
+UART        = $HDS_PROJECT_DIR/uart/questasim
+UART_V      = $HDS_PROJECT_DIR/uart_v/questasim
+UART_V2K      = $HDS_PROJECT_DIR/uart_v2k/questasim
+
+[DC]
+SCRATCH_LIB = $HDS_PROJECT_DIR/hds_scratch/scratch_lib/dc
+ 
+[Leonardo]
+Ethernet = $HDS_PROJECT_DIR/ethernet/ls_work
+SCRATCH_LIB = $HDS_PROJECT_DIR/hds_scratch/scratch_lib/ls_work
+Sequencer_vhd = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vhd/ls_work
+Sequencer_vlg = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vlg/ls_work
+TIMER_Vhdl  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vhdl/ls_work
+TIMER_Vlog  = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vlog/ls_work
+UART_TXT    = $HDS_PROJECT_DIR/uart_txt/ls_work
+UART        = $HDS_PROJECT_DIR/uart/ls_work
+UART_V      = $HDS_PROJECT_DIR/uart_v/ls_work
+UART_V2K      = $HDS_PROJECT_DIR/uart_v2k/ls_work
+
+[includes_search_path]
+Ethernet = $Ethernet/data/rtl/verilog
+ 
+[shared]
+others      = $HDS_TEAM_HOME/shared.hdp
+

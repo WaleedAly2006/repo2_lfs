@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom accumulator
+DEFAULT_FILE atom accumulator/flow.fc

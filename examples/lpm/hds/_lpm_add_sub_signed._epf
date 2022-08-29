@@ -1,0 +1,2 @@
+DEFAULT_FILE atom lpm_add_sub_signed_lpm_syn.vhd
+DEFAULT_ARCHITECTURE atom lpm_syn
