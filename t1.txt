@@ -1,0 +1,52 @@
+File Path|Library|Design Unit(s)|User|Lock ID
+examples/uart/hds/_status_registers._epf|UART|status_registers ||
+examples/uart/hdl/uart_top_struct.vhd|UART|uart_top||
+examples/uart/hdl/xmit_rcv_control_asm.vhd|UART|xmit_rcv_control||
+examples/uart/hdl/serial_interface_struct.vhd|UART|serial_interface||
+examples/uart/hds/.hdlsidedata/_uart_top_struct.vhd._fpf|UART|uart_top||
+examples/uart/hds/_serial_interface._epf|UART|serial_interface ||
+examples/uart/hds/_control_operation._epf|UART|control_operation ||
+examples/uart/hds/cpu_interface/interface|UART|cpu_interface||
+examples/uart/hds/address_decode/interface|UART|address_decode||
+examples/uart/hds/status_registers/interface|UART|status_registers||
+examples/uart/hds/.xrf/xmit_rcv_control_fsm.xrf|UART|xmit_rcv_control||
+examples/uart/hds/xmit_rcv_control/interface|UART|xmit_rcv_control||
+examples/uart/hds/.hdlsidedata/_cpu_interface_intconx.vhd._fpf|UART|cpu_interface||
+examples/uart/hds/_cpu_interface._epf|UART|cpu_interface ||
+examples/uart/hds/control_operation/symbol.sb|UART|control_operation|WaleedAly2006|1792742
+examples/uart/hdl/status_registers_spec.vhd|UART|status_registers|WaleedAly2006|1795887
+examples/uart/hds/.xrf/xmit_rcv_control_asm.xrf|UART|xmit_rcv_control||
+examples/uart/hds/cpu_interface/struct.bd|UART|cpu_interface|WaleedAly2006|1795880
+examples/uart/hds/.hdlsidedata/_serial_interface_struct.vhd._fpf|UART|serial_interface||
+examples/uart/hds/serial_interface/interface|UART|serial_interface||
+examples/uart/hds/_clock_divider._epf|UART|clock_divider ||
+examples/uart/hds/_xmit_rcv_control._epf|UART|xmit_rcv_control ||
+examples/uart/hds/.xrf/cpu_interface_intconx.xrf|UART|cpu_interface||
+examples/uart/hds/.hdlsidedata/_address_decode_tbl.vhd._fpf|UART|address_decode||
+examples/uart/hds/cpu_interface/intconx.ibd|UART|cpu_interface|WaleedAly2006|1792741
+examples/uart/hds/_address_decode._epf|UART|address_decode ||
+examples/uart/hds/.xrf/control_operation_fsm.xrf|UART|control_operation||
+examples/uart/hdl/clock_divider_flow.vhd|UART|clock_divider||
+examples/uart/hds/_uart_top._epf|UART|uart_top||
+examples/uart/hds/.hdlsidedata/_xmit_rcv_control_fsm.vhd._fpf|UART|xmit_rcv_control||
+examples/uart/hds/clock_divider/flow.fc|UART|clock_divider||
+examples/uart/hds/serial_interface/struct.bd|UART|serial_interface|WaleedAly2006|1795885
+examples/uart/hds/.hdlsidedata/_xmit_rcv_control_asm.vhd._fpf|UART|xmit_rcv_control||
+examples/uart/hds/clock_divider/symbol.sb|UART|clock_divider||
+examples/uart/hdl/cpu_interface_intconx.vhd|UART|cpu_interface||
+examples/uart/hdl/address_decode_tbl.vhd|UART|address_decode||
+examples/uart/hds/.hdlsidedata/_clock_divider_flow.vhd._fpf|UART|clock_divider||
+examples/uart/hds/uart_top/symbol.sb|UART|uart_top||
+examples/uart/hds/xmit_rcv_control/fsm.sm|UART|xmit_rcv_control||
+examples/uart/hdl/control_operation_fsm.vhd|UART|control_operation||
+examples/uart/hds/.hdlsidedata/_status_registers_spec.vhd._fpf|UART|status_registers||
+examples/uart/hds/.hdlsidedata/_control_operation_fsm.vhd._fpf|UART|control_operation||
+examples/uart/hds/control_operation/fsm.sm|UART|control_operation|WaleedAly2006|1792743
+examples/uart/hds/.xrf/clock_divider_flow.xrf|UART|clock_divider||
+examples/uart/hds/.xrf/uart_top_struct.xrf|UART|uart_top||
+examples/uart/hds/uart_top/struct.bd|UART|uart_top|WaleedAly2006|1795882
+examples/uart/hds/.xrf/serial_interface_struct.xrf|UART|serial_interface||
+examples/uart/hds/address_decode/tbl.tt|UART|address_decode|WaleedAly2006|1792614
+examples/uart/hdl/xmit_rcv_control_fsm.vhd|UART|xmit_rcv_control||
+examples/uart/hds/.xrf/address_decode_tbl.xrf|UART|address_decode||
+examples/uart/hds/xmit_rcv_control/asm.am|UART|xmit_rcv_control|WaleedAly2006|1795886
